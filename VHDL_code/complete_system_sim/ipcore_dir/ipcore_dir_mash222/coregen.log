@@ -1,0 +1,45 @@
+INFO:sim:172 - Generating IP...
+Customizing IP...
+Release 14.7 - Xilinx CORE Generator IP GUI Launcher P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Finished Customizing.
+Generating IP...
+WARNING:coreutil - WARNING: EJava Unzip Failure on fileset.zip for
+   .//gtx_output/_tmpjava.util.zip.ZipException: Zip/Jar file,
+   /opt/Xilinx/14.7/ISE_DS/ISE/coregen/ip/xilinx/primary/com/xilinx/ip/v5_gtxwiz
+   ard_v1_7/fileset.zip, is not a valid file.
+WARNING:sim:93 - NGC output will not be generated for this core.
+Finished Generation.
+Generating IP instantiation template...
+Generating ASY schematic symbol...
+INFO:sim:993 - The selected IP does not support an ASY schematic symbol.
+INFO:sim:949 - Finished generation of ASY schematic symbol.
+WARNING:sim - The chosen IP does not support an SYM schematic symbol.
+Generating metadata file...
+Generating ISE project...
+XCO file found: gtx_output.xco
+XMDF file found: gtx_output_xmdf.tcl
+Adding /home/ise/projects/mash_222_nosynth/ipcore_dir/tmp/_cg/gtx_output.vho
+-view all -origin_type imported
+Adding
+/home/ise/projects/mash_222_nosynth/ipcore_dir/tmp/_cg/./gtx_output_tile.vhd
+-view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ise/projects/mash_222_nosynth/ipcore_dir/tmp/_cg/gtx_output_tile.vhd"
+   into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding /home/ise/projects/mash_222_nosynth/ipcore_dir/tmp/_cg/./gtx_output.vhd
+-view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/ise/projects/mash_222_nosynth/ipcore_dir/tmp/_cg/gtx_output.vhd" into
+   library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+WARNING: This core does not have a top level called "/gtx_output"
+WARNING: Top level has been set to "/GTX_OUTPUT"
+Generating README file...
+Generating FLIST file...
+INFO:sim:948 - Finished FLIST file generation.
+Launching README viewer...
+Moving files to output directory...
+Finished moving files to output directory
+Wrote CGP file for project 'gtx_output'.
