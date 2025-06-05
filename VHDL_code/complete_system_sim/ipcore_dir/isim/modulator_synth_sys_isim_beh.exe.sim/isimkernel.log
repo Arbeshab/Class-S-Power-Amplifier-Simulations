@@ -1,0 +1,28 @@
+Command line:
+   modulator_synth_sys_isim_beh.exe
+     -simmode  gui
+     -simrunnum  2
+     -socket  59778
+
+Sun Jan 15 22:11:37 2023
+
+
+ Elaboration Time: 0.14 sec
+
+ Current Memory Usage: 217.801 Meg
+
+ Total Signals          : 1857
+ Total Nets             : 14074
+ Total Signal Drivers   : 772
+ Total Blocks           : 97
+ Total Primitive Blocks : 50
+ Total Processes        : 459
+ Total Traceable Variables  : 1484
+ Total Scalar Nets and Variables : 22369
+
+ Total Simulation Time: 0.18 sec
+
+ Current Memory Usage: 295.399 Meg
+
+Sun Jan 15 22:11:48 2023
+
