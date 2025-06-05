@@ -1,0 +1,25 @@
+# SMA output pins
+NET "tx_out_p"					LOC="L2";
+NET "tx_out_n"					LOC="K2";
+
+# enable and sequence selection switch
+NET "enable_transmission"	LOC="U25"; 	# switch 1
+NET "choose_signal"			LOC="AG27"; # switch 2
+
+#frequency selection switches
+NET "freq_sel<1>"				LOC="AC25";
+NET "freq_sel<0>"				LOC="AC24";
+
+# switch for selecting synthesizer signal
+NET "choose_input"			LOC="AF25";
+
+NET "clk_in" 					LOC="AH15";
+
+#GPIO_DIP_SW1 U25
+#GPIO_DIP_SW2 AG27
+#GPIO_DIP_SW3 AF25
+#GPIO_DIP_SW4 AF26
+#GPIO_DIP_SW5 AE27
+#GPIO_DIP_SW6 AE26
+#GPIO_DIP_SW7 AC25
+#GPIO_DIP_SW8 AC24
