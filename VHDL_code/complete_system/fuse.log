@@ -1,0 +1,59 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/projects/complete_system_mash222_freq_synth/sys_tb_isim_beh.exe -prj /home/ise/projects/complete_system_mash222_freq_synth/sys_tb_beh.prj work.sys_tb 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/projects/complete_system_mash222_freq_synth/ipcore_dir/ipcore_dir_synth/lut_sine_coarse_128_vals.vhd" into library work
+Parsing VHDL file "/home/ise/projects/complete_system_mash222_freq_synth/ipcore_dir/ipcore_dir_synth/lut_sine_fine_256_vals.vhd" into library work
+Parsing VHDL file "/home/ise/projects/complete_system_mash222_freq_synth/mash222_vhd_files/output_buffer.vhd" into library work
+Parsing VHDL file "/home/ise/projects/complete_system_mash222_freq_synth/mash222_vhd_files/mash_222.vhd" into library work
+Parsing VHDL file "/home/ise/projects/complete_system_mash222_freq_synth/mash222_vhd_files/bit_reduction.vhd" into library work
+Parsing VHDL file "/home/ise/projects/complete_system_mash222_freq_synth/pll_clock.vhd" into library work
+Parsing VHDL file "/home/ise/projects/complete_system_mash222_freq_synth/synth_vhd_files/synth.vhd" into library work
+Parsing VHDL file "/home/ise/projects/complete_system_mash222_freq_synth/mash222_vhd_files/top_level.vhd" into library work
+Parsing VHDL file "/home/ise/projects/complete_system_mash222_freq_synth/modulator_synth_sys.vhd" into library work
+Parsing VHDL file "/home/ise/projects/complete_system_mash222_freq_synth/sys_tb.vhd" into library work
+Parsing VHDL file "/home/ise/projects/complete_system_mash222_freq_synth/ipcore_dir/ipcore_dir_mash222/gtx_output_tile.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 125308 KB
+Fuse CPU Usage: 1640 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package textio
+Compiling package std_logic_arith
+Compiling package std_logic_signed
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling package std_logic_unsigned
+Compiling package std_logic_textio
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V7_3_output_stage [\BLK_MEM_GEN_V7_3_output_stage("...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity BLK_MEM_GEN_V7_3_softecc_output_reg_stage [\BLK_MEM_GEN_V7_3_softecc_output...]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V7_3_mem_module [\BLK_MEM_GEN_V7_3_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V7_3 [\BLK_MEM_GEN_V7_3("blk_mem_gen_v...]
+Compiling architecture lut_sine_coarse_128_vals_a of entity lut_sine_coarse_128_vals [lut_sine_coarse_128_vals_default]
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V7_3_output_stage [\BLK_MEM_GEN_V7_3_output_stage("...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity BLK_MEM_GEN_V7_3_softecc_output_reg_stage [\BLK_MEM_GEN_V7_3_softecc_output...]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V7_3_mem_module [\BLK_MEM_GEN_V7_3_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V7_3 [\BLK_MEM_GEN_V7_3("blk_mem_gen_v...]
+Compiling architecture lut_sine_fine_256_vals_a of entity lut_sine_fine_256_vals [lut_sine_fine_256_vals_default]
+Compiling architecture behavioral of entity synth [synth_default]
+Compiling architecture behavioral of entity output_buffer [output_buffer_default]
+Compiling architecture behavioral of entity mash_222 [mash_222_default]
+Compiling architecture behavioral of entity bit_reduction [bit_reduction_default]
+Compiling package vital_timing
+Compiling package vital_primitives
+Compiling package vpkg
+Compiling architecture ibufg_v of entity IBUFG [\IBUFG("DONT_CARE","0",true,"DEF...]
+Compiling architecture bufg_v of entity BUFG [bufg_default]
+Compiling architecture pll_adv_v of entity PLL_ADV [\PLL_ADV("OPTIMIZED","CLKFBOUT",...]
+Compiling architecture behavioral of entity pll_clock [pll_clock_default]
+Compiling architecture behavioral of entity mod_top_level [mod_top_level_default]
+Compiling architecture behavioral of entity modulator_synth_sys [modulator_synth_sys_default]
+Compiling architecture behavior of entity sys_tb
+Time Resolution for simulation is 1ps.
+Compiled 53 VHDL Units
+Built simulation executable /home/ise/projects/complete_system_mash222_freq_synth/sys_tb_isim_beh.exe
+Fuse Memory Usage: 162748 KB
+Fuse CPU Usage: 2510 ms
+GCC CPU Usage: 3650 ms

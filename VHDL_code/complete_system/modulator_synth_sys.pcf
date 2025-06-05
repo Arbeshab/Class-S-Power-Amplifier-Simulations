@@ -1,0 +1,15 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Dec 16 11:32:32 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "enable_transmission" LOCATE = SITE "U25" LEVEL 1;
+COMP "choose_input" LOCATE = SITE "AF25" LEVEL 1;
+COMP "choose_signal" LOCATE = SITE "AG27" LEVEL 1;
+COMP "freq_sel<0>" LOCATE = SITE "AC24" LEVEL 1;
+COMP "freq_sel<1>" LOCATE = SITE "AC25" LEVEL 1;
+COMP "clk_in" LOCATE = SITE "AH15" LEVEL 1;
+COMP "tx_out_n" LOCATE = SITE "K2" LEVEL 1;
+COMP "tx_out_p" LOCATE = SITE "L2" LEVEL 1;
+SCHEMATIC END;
+

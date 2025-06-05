@@ -1,0 +1,13 @@
+Release 14.7 Drc P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Fri Dec 16 11:34:17 2022
+
+drc -z modulator_synth_sys.ncd modulator_synth_sys.pcf
+
+WARNING:PhysDesignRules:1842 - One or more GTXs are being used in this design.
+   Evaluate the SelectIO-To-GTX Crosstalk section of the Virtex-5 RocketIO GTX
+   Transceiver User Guide to ensure that the design SelectIO usage meets the
+   guidelines to minimize the impact on GTX performance. 
+DRC detected 0 errors and 1 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

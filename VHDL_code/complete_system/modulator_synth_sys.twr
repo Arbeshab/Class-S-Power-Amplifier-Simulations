@@ -1,0 +1,100 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 1 -n
+3 -fastpaths -xml modulator_synth_sys.twx modulator_synth_sys.ncd -o
+modulator_synth_sys.twr modulator_synth_sys.pcf
+
+Design file:              modulator_synth_sys.ncd
+Physical constraint file: modulator_synth_sys.pcf
+Device,package,speed:     xc5vfx70t,ff1136,-1 (PRODUCTION 1.73 2013-10-13, STEPPING level 0)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk_in
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+choose_input|   -5.744(R)|   14.288(R)|pll_clk_to_synth  |   0.000|
+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock freq_sel<0>
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+choose_input|   -5.770(R)|   11.995(R)|pll_clk_to_synth  |   0.000|
+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock freq_sel<1>
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+choose_input|   -6.022(R)|   12.269(R)|pll_clk_to_synth  |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk_in
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_in         |    6.777|         |         |         |
+freq_sel<0>    |    6.777|         |         |         |
+freq_sel<1>    |    6.777|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock freq_sel<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_in         |    6.777|         |         |         |
+freq_sel<0>    |    6.777|         |         |         |
+freq_sel<1>    |    6.777|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock freq_sel<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_in         |    6.777|         |         |         |
+freq_sel<0>    |    6.777|         |         |         |
+freq_sel<1>    |    6.777|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Fri Dec 16 11:34:03 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 578 MB
+
+
+

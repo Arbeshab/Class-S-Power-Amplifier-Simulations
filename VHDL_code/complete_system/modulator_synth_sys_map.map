@@ -1,0 +1,167 @@
+Release 14.7 Map P.20131013 (lin64)
+Xilinx Map Application Log File for Design 'modulator_synth_sys'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc5vfx70t-ff1136-1 -w -logic_opt off -ol
+high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr
+off -lc off -power off -o modulator_synth_sys_map.ncd modulator_synth_sys.ngd
+modulator_synth_sys.pcf 
+Target Device  : xc5vfx70t
+Target Package : ff1136
+Target Speed   : -1
+Mapper Version : virtex5 -- $Revision: 1.55 $
+Mapped Date    : Fri Dec 16 11:31:40 2022
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+INFO:Security:56 - Part 'xc5vfx70t' is not a WebPack part.
+WARNING:Security:42 - Your software subscription period has lapsed. Your current
+version of Xilinx tools will continue to function, but you no longer qualify for
+Xilinx software updates or new releases.
+----------------------------------------------------------------------
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Updating timing models...
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 25 secs 
+Total CPU  time at the beginning of Placer: 23 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:d770021b) REAL time: 29 secs 
+
+Phase 2.7  Design Feasibility Check
+WARNING:Place:916 - Local congestion has been detected on component
+   modulator_inst/pll_clk_freq. There is a limitation that at most 2 global
+   signals can drive non-clock pins per CLB. The placer has detected that
+   component modulator_inst/pll_clk_freq has 4 non-clock pins driven by global
+   signals. Placement will continue but note that this situation may lead to an
+   unroutable situation. 
+Phase 2.7  Design Feasibility Check (Checksum:d770021b) REAL time: 30 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:d770021b) REAL time: 30 secs 
+
+Phase 4.37  Local Placement Optimization
+Phase 4.37  Local Placement Optimization (Checksum:d770021b) REAL time: 30 secs 
+
+Phase 5.33  Local Placement Optimization
+Phase 5.33  Local Placement Optimization (Checksum:d770021b) REAL time: 30 secs 
+
+Phase 6.32  Local Placement Optimization
+Phase 6.32  Local Placement Optimization (Checksum:d770021b) REAL time: 30 secs 
+
+Phase 7.2  Initial Clock and IO Placement
+
+Phase 7.2  Initial Clock and IO Placement (Checksum:26eb89a7) REAL time: 31 secs 
+
+Phase 8.36  Local Placement Optimization
+Phase 8.36  Local Placement Optimization (Checksum:26eb89a7) REAL time: 31 secs 
+
+Phase 9.30  Global Clock Region Assignment
+Phase 9.30  Global Clock Region Assignment (Checksum:26eb89a7) REAL time: 31 secs 
+
+Phase 10.3  Local Placement Optimization
+Phase 10.3  Local Placement Optimization (Checksum:26eb89a7) REAL time: 31 secs 
+
+Phase 11.5  Local Placement Optimization
+Phase 11.5  Local Placement Optimization (Checksum:26eb89a7) REAL time: 32 secs 
+
+Phase 12.8  Global Placement
+..............................
+....
+Phase 12.8  Global Placement (Checksum:6de852c2) REAL time: 33 secs 
+
+Phase 13.29  Local Placement Optimization
+Phase 13.29  Local Placement Optimization (Checksum:6de852c2) REAL time: 33 secs 
+
+Phase 14.5  Local Placement Optimization
+Phase 14.5  Local Placement Optimization (Checksum:6de852c2) REAL time: 33 secs 
+
+Phase 15.18  Placement Optimization
+Phase 15.18  Placement Optimization (Checksum:cfa1399b) REAL time: 52 secs 
+
+Phase 16.5  Local Placement Optimization
+Phase 16.5  Local Placement Optimization (Checksum:cfa1399b) REAL time: 52 secs 
+
+Phase 17.34  Placement Validation
+Phase 17.34  Placement Validation (Checksum:cfa1399b) REAL time: 52 secs 
+
+Total REAL time to Placer completion: 52 secs 
+Total CPU  time to Placer completion: 43 secs 
+Running post-placement packing...
+Writing output files...
+WARNING:PhysDesignRules:1842 - One or more GTXs are being used in this design.
+   Evaluate the SelectIO-To-GTX Crosstalk section of the Virtex-5 RocketIO GTX
+   Transceiver User Guide to ensure that the design SelectIO usage meets the
+   guidelines to minimize the impact on GTX performance. 
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    2
+Slice Logic Utilization:
+  Number of Slice Registers:                   233 out of  44,800    1%
+    Number used as Flip Flops:                 232
+    Number used as Latch-thrus:                  1
+  Number of Slice LUTs:                        263 out of  44,800    1%
+    Number used as logic:                      208 out of  44,800    1%
+      Number using O6 output only:             139
+      Number using O5 output only:               2
+      Number using O5 and O6:                   67
+    Number used as Memory:                      37 out of  13,120    1%
+      Number used as Shift Register:            37
+        Number using O6 output only:            37
+    Number used as exclusive route-thru:        18
+  Number of route-thrus:                        24
+    Number using O6 output only:                20
+    Number using O5 output only:                 4
+
+Slice Logic Distribution:
+  Number of occupied Slices:                    92 out of  11,200    1%
+  Number of LUT Flip Flop pairs used:          307
+    Number with an unused Flip Flop:            74 out of     307   24%
+    Number with an unused LUT:                  44 out of     307   14%
+    Number of fully used LUT-FF pairs:         189 out of     307   61%
+    Number of unique control sets:               3
+    Number of slice register sites lost
+      to control set restrictions:               3 out of  44,800    1%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+  OVERMAPPING of BRAM resources should be ignored if the design is
+  over-mapped for a non-BRAM resource or if placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                         6 out of     640    1%
+    Number of LOCed IOBs:                        6 out of       6  100%
+    Number of bonded OPADs:                      2
+      Number of LOCed OPADs:                     2 out of       2  100%
+
+Specific Feature Utilization:
+  Number of BlockRAM/FIFO:                       4 out of     148    2%
+    Number using BlockRAM only:                  4
+    Total primitives used:
+      Number of 18k BlockRAM used:               6
+    Total Memory used (KB):                    108 out of   5,328    2%
+  Number of BUFG/BUFGCTRLs:                      6 out of      32   18%
+    Number used as BUFGs:                        6
+  Number of DSP48Es:                             2 out of     128    1%
+  Number of GTX_DUALs:                           1 out of       8   12%
+  Number of PLL_ADVs:                            1 out of       6   16%
+
+Average Fanout of Non-Clock Nets:                2.04
+
+Peak Memory Usage:  1003 MB
+Total REAL time to MAP completion:  54 secs 
+Total CPU time to MAP completion:   45 secs 
+
+Mapping completed.
+See MAP report file "modulator_synth_sys_map.mrp" for details.

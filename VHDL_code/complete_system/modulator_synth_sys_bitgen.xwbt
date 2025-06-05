@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/projects/complete_system_mash222_freq_synth_clean/modulator_synth_sys.ncd
+OUTFILE=/home/ise/projects/complete_system_mash222_freq_synth_clean/modulator_synth_sys.bit
+FAMILY=Virtex5
+PART=xc5vfx70t-1ff1136
+WORKINGDIR=/home/ise/projects/complete_system_mash222_freq_synth_clean
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620
