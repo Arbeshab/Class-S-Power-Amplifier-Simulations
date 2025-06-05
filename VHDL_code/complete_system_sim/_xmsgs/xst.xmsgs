@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/GTX_OUTPUT_TILE</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/ise/projects/complete_system_mash222_freq_synth_sim/ipcore_dir/ipcore_dir_mash222/gtx_output_tile.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/projects/complete_system_mash222_freq_synth_sim_corrected/ipcore_dir/ipcore_dir_mash222/gtx_output_tile.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/GTX_OUTPUT_TILE/RTL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/ise/projects/complete_system_mash222_freq_synth_sim/ipcore_dir/ipcore_dir_mash222/gtx_output_tile.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/projects/complete_system_mash222_freq_synth_sim_corrected/ipcore_dir/ipcore_dir_mash222/gtx_output_tile.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/modulator_synth_sys</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/ise/projects/complete_system_mash222_freq_synth_sim/modulator_synth_sys.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/projects/complete_system_mash222_freq_synth_sim_corrected/modulator_synth_sys.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/modulator_synth_sys/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/ise/projects/complete_system_mash222_freq_synth_sim/modulator_synth_sys.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/projects/complete_system_mash222_freq_synth_sim_corrected/modulator_synth_sys.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/mod_top_level</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/ise/projects/complete_system_mash222_freq_synth_sim/mash222_vhd_files/top_level.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/projects/complete_system_mash222_freq_synth_sim_corrected/mash222_vhd_files/top_level.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/mod_top_level/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/ise/projects/complete_system_mash222_freq_synth_sim/mash222_vhd_files/top_level.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/projects/complete_system_mash222_freq_synth_sim_corrected/mash222_vhd_files/top_level.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/synth</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/ise/projects/complete_system_mash222_freq_synth_sim/synth_vhd_files/synth.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/projects/complete_system_mash222_freq_synth_sim_corrected/synth_vhd_files/synth.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/synth/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/ise/projects/complete_system_mash222_freq_synth_sim/synth_vhd_files/synth.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/projects/complete_system_mash222_freq_synth_sim_corrected/synth_vhd_files/synth.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/pll_clock</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/ise/projects/complete_system_mash222_freq_synth_sim/pll_clock.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/projects/complete_system_mash222_freq_synth_sim_corrected/pll_clock.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/pll_clock/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/ise/projects/complete_system_mash222_freq_synth_sim/pll_clock.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/projects/complete_system_mash222_freq_synth_sim_corrected/pll_clock.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/bit_reduction</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/ise/projects/complete_system_mash222_freq_synth_sim/mash222_vhd_files/bit_reduction.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/projects/complete_system_mash222_freq_synth_sim_corrected/mash222_vhd_files/bit_reduction.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/bit_reduction/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/ise/projects/complete_system_mash222_freq_synth_sim/mash222_vhd_files/bit_reduction.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/projects/complete_system_mash222_freq_synth_sim_corrected/mash222_vhd_files/bit_reduction.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/mash_222</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/ise/projects/complete_system_mash222_freq_synth_sim/mash222_vhd_files/mash_222.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/projects/complete_system_mash222_freq_synth_sim_corrected/mash222_vhd_files/mash_222.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/mash_222/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/ise/projects/complete_system_mash222_freq_synth_sim/mash222_vhd_files/mash_222.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/projects/complete_system_mash222_freq_synth_sim_corrected/mash222_vhd_files/mash_222.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/output_buffer</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/ise/projects/complete_system_mash222_freq_synth_sim/mash222_vhd_files/output_buffer.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/projects/complete_system_mash222_freq_synth_sim_corrected/mash222_vhd_files/output_buffer.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/output_buffer/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/ise/projects/complete_system_mash222_freq_synth_sim/mash222_vhd_files/output_buffer.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/projects/complete_system_mash222_freq_synth_sim_corrected/mash222_vhd_files/output_buffer.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/lut_sine_fine_256_vals</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/ise/projects/complete_system_mash222_freq_synth_sim/ipcore_dir/ipcore_dir_synth/lut_sine_fine_256_vals.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/projects/complete_system_mash222_freq_synth_sim_corrected/ipcore_dir/ipcore_dir_synth/lut_sine_fine_256_vals.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/lut_sine_fine_256_vals/lut_sine_fine_256_vals_a</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/ise/projects/complete_system_mash222_freq_synth_sim/ipcore_dir/ipcore_dir_synth/lut_sine_fine_256_vals.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/projects/complete_system_mash222_freq_synth_sim_corrected/ipcore_dir/ipcore_dir_synth/lut_sine_fine_256_vals.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/lut_sine_coarse_128_vals</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/ise/projects/complete_system_mash222_freq_synth_sim/ipcore_dir/ipcore_dir_synth/lut_sine_coarse_128_vals.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/projects/complete_system_mash222_freq_synth_sim_corrected/ipcore_dir/ipcore_dir_synth/lut_sine_coarse_128_vals.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/lut_sine_coarse_128_vals/lut_sine_coarse_128_vals_a</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/ise/projects/complete_system_mash222_freq_synth_sim/ipcore_dir/ipcore_dir_synth/lut_sine_coarse_128_vals.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/ise/projects/complete_system_mash222_freq_synth_sim_corrected/ipcore_dir/ipcore_dir_synth/lut_sine_coarse_128_vals.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/projects/complete_system_mash222_freq_synth_sim_corrected/synth_vhd_files/synth.vhd</arg>&quot; line <arg fmt="%d" index="2">158</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">lut_sine_coarse_128_vals</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/projects/complete_system_mash222_freq_synth_sim_corrected/synth_vhd_files/synth.vhd</arg>&quot; line <arg fmt="%d" index="2">165</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">lut_sine_coarse_128_vals</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/projects/complete_system_mash222_freq_synth_sim_corrected/synth_vhd_files/synth.vhd</arg>&quot; line <arg fmt="%d" index="2">172</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">lut_sine_fine_256_vals</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">/home/ise/projects/complete_system_mash222_freq_synth_sim_corrected/mash222_vhd_files/top_level.vhd</arg>&quot; line <arg fmt="%d" index="2">173</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">LOCKED_OUT</arg>&apos; of component &apos;<arg fmt="%s" index="4">pll_clock</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">v3&lt;3:1&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">v2&lt;3:1&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">v1&lt;3:1&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">u_exp&lt;12&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">e2_exp&lt;12&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">e1_exp&lt;12&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">v&lt;7:1&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">res1_exp&lt;15:8&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">res_offset_signed&lt;12&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">bc_uint_red&lt;10:7&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">bc_uint_buf&lt;10:0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">bc_signed&lt;11&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1305" delta="old" >Output &lt;<arg fmt="%s" index="1">tx_out_n</arg>&gt; is never assigned. Tied to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1305" delta="old" >Output &lt;<arg fmt="%s" index="1">tx_out_p</arg>&gt; is never assigned. Tied to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">data_out</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">clk_out_usr1_15MHz</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">clk_out_usr0_15MHz</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">data_synth_combined&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">my_output_buffer</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">modulator_inst</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">v2d_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mash_222_inst</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;v2d_2&gt; &lt;v2d_3&gt; &lt;v3d_1&gt; &lt;v3d_2&gt; &lt;v3d_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">v2dd_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mash_222_inst</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;v2dd_2&gt; &lt;v2dd_3&gt; &lt;v3dd_1&gt; &lt;v3dd_2&gt; &lt;v3dd_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">v3d3_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mash_222_inst</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;v3d3_2&gt; &lt;v3d3_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">v3d4_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">mash_222_inst</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;v3d4_2&gt; &lt;v3d4_3&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">v2d_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mash_222_inst</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">v2dd_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mash_222_inst</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">v3d3_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mash_222_inst</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">v3d4_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mash_222_inst</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">bc_uint_buf_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">synth_inst_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">bc_uint_buf_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">synth_inst_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">bc_uint_buf_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">synth_inst_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">bc_uint_buf_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">synth_inst_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">bc_uint_buf_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">synth_inst_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">bc_uint_buf_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">synth_inst_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">bc_uint_buf_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">synth_inst_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">bc_uint_buf_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">synth_inst_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">bc_uint_buf_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">synth_inst_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">bc_uint_buf_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">synth_inst_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">bc_uint_buf_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">synth_inst_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">bc_uint_buf_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">synth_inst_2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">bc_uint_buf_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">synth_inst_2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">bc_uint_buf_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">synth_inst_2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">bc_uint_buf_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">synth_inst_2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">bc_uint_buf_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">synth_inst_2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">bc_uint_buf_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">synth_inst_2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">bc_uint_buf_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">synth_inst_2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">bc_uint_buf_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">synth_inst_2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">bc_uint_buf_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">synth_inst_2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">bc_uint_buf_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">synth_inst_2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">bc_uint_buf_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">synth_inst_2</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2385" delta="old" >HDL ADVISOR - You can improve the performance of the multiplier <arg fmt="%s" index="1">Mmult_bc_uint</arg> by adding <arg fmt="%d" index="2">1</arg> register level(s).
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">v2d_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mash_222</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">v2d_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mash_222</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">v2d_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mash_222</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">v3d_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mash_222</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">v3d_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mash_222</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">v3d_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mash_222</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">v3dd_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mash_222</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">v3dd_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mash_222</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">v3dd_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mash_222</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">v2dd_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mash_222</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">v2dd_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mash_222</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">v2dd_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mash_222</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">v3d3_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mash_222</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">v3d3_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mash_222</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">v3d3_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mash_222</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">v3d4_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mash_222</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">v3d4_2</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mash_222</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">v3d4_3</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">mash_222</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">data_word_out_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">output_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">data_word_out_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">output_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">data_word_out_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">output_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">data_word_out_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">output_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">data_word_out_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">output_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">data_word_out_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">output_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">data_word_out_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">output_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">data_word_out_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">output_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">data_word_out_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">output_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">data_word_out_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">output_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">data_word_out_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">output_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">data_word_out_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">output_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">data_word_out_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">output_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">data_word_out_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">output_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">data_word_out_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">output_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">data_word_out_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">output_buffer</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="old" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">internal_word_15</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">output_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="old" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">internal_word_14</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">output_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="old" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">internal_word_13</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">output_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="old" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">internal_word_12</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">output_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="old" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">internal_word_11</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">output_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="old" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">internal_word_10</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">output_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="old" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">internal_word_9</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">output_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="old" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">internal_word_8</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">output_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="old" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">internal_word_7</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">output_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="old" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">internal_word_6</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">output_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="old" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">internal_word_5</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">output_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="old" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">internal_word_4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">output_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="old" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">internal_word_3</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">output_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="old" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">internal_word_2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">output_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="old" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">internal_word_1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">output_buffer</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1898" delta="old" >Due to constant pushing, FF/Latch &lt;<arg fmt="%s" index="1">internal_word_0</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">output_buffer</arg>&gt;.
+</msg>
+
+</messages>
+

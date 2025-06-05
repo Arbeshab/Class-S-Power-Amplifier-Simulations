@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="LIT" num="243" delta="new" >Logical network <arg fmt="%s" index="1">enable_transmission_IBUF</arg> has no load.
+</msg>
+
+<msg type="info" file="LIT" num="395" delta="new" >The above <arg fmt="%s" index="1">info</arg> message is repeated <arg fmt="%d" index="2">1</arg> more times for the following (max. 5 shown):
+<arg fmt="%s" index="3">choose_signal_IBUF</arg>
+To see the details of these <arg fmt="%s" index="4">info</arg> messages, please use the -detail switch.
+</msg>
+
+<msg type="info" file="MapLib" num="562" delta="new" >No environment variables are currently set.
+</msg>
+
+<msg type="info" file="MapLib" num="856" delta="new" >PLL_ADV <arg fmt="%s" index="1">modulator_inst/my_pll_clock/PLL_ADV_INST</arg> CLKIN2 pin was disconnected because a constant 1 is driving the CLKINSEL pin.
+</msg>
+
+<msg type="info" file="MapLib" num="841" delta="new" >Changing COMPENSATION attribute from <arg fmt="%s" index="1">SYSTEM_SYNCHRONOUS</arg> to <arg fmt="%s" index="2">INTERNAL</arg> for PLL_ADV <arg fmt="%s" index="3">modulator_inst/my_pll_clock/PLL_ADV_INST</arg>.
+</msg>
+
+<msg type="info" file="LIT" num="244" delta="new" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs.
+</msg>
+
+<msg type="error" file="Pack" num="1107" delta="new" >Pack was unable to combine the symbols listed below into a single <arg fmt="%s" index="1">IOB</arg> component because the site type selected is not compatible. <arg fmt="%s" index="2">
+
+Further explanation:
+The component type is determined by the types of logic and the properties and configuration of the logic it contains. In this case an IO component of type IOB was chosen because the IO contains symbols and/or properties consistent with input, output, or bi-directional usage and contains no other symbols or properties that require a more specific IO component type. Please double check that the types of logic elements and all of their relevant properties and configuration options are compatible with the physical site type of the constraint.
+
+Summary:
+Symbols involved:
+	BUF symbol &quot;tx_out_n_OBUF&quot; (Output Signal = tx_out_n)
+	PAD symbol &quot;tx_out_n&quot; (Pad Signal = tx_out_n)
+Component type involved: IOB
+Site Location involved: K2
+Site Type involved: OPAD
+</arg>
+</msg>
+
+<msg type="error" file="Pack" num="1107" delta="new" >Pack was unable to combine the symbols listed below into a single <arg fmt="%s" index="1">IOB</arg> component because the site type selected is not compatible. <arg fmt="%s" index="2">
+
+Further explanation:
+The component type is determined by the types of logic and the properties and configuration of the logic it contains. In this case an IO component of type IOB was chosen because the IO contains symbols and/or properties consistent with input, output, or bi-directional usage and contains no other symbols or properties that require a more specific IO component type. Please double check that the types of logic elements and all of their relevant properties and configuration options are compatible with the physical site type of the constraint.
+
+Summary:
+Symbols involved:
+	BUF symbol &quot;tx_out_p_OBUF&quot; (Output Signal = tx_out_p)
+	PAD symbol &quot;tx_out_p&quot; (Pad Signal = tx_out_p)
+Component type involved: IOB
+Site Location involved: L2
+Site Type involved: OPAD
+</arg>
+</msg>
+
+</messages>
+
