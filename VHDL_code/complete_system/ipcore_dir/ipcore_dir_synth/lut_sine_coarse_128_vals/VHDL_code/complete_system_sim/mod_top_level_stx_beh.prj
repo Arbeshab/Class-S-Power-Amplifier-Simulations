@@ -1,0 +1,5 @@
+vhdl isim_temp "mash222_vhd_files/output_buffer.vhd"
+vhdl isim_temp "mash222_vhd_files/mash_222.vhd"
+vhdl isim_temp "mash222_vhd_files/bit_reduction.vhd"
+vhdl isim_temp "pll_clock.vhd"
+vhdl isim_temp "mash222_vhd_files/top_level.vhd"
