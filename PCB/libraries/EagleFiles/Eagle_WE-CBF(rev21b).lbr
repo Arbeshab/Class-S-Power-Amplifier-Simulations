@@ -1,0 +1,2670 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.5.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - EMC Components - Ferrites For PCB Assembly - WE-CBF&lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2021a, 2021-8-20&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WE-CBF_1210(W=4.2)" urn="urn:adsk.eagle:footprint:7784319/4">
+<description>&lt;b&gt;WE-CBF SMT EMI Suppression Ferrite Bead&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Size: &lt;/b&gt;1210, SMT, 2pins
+&lt;br&gt;L X W X H X FI = 3.2mm X 2.5mm X 1.3mm X 0.5mm</description>
+<smd name="1" x="-1.55" y="0" dx="1.8" dy="1.1" layer="1" rot="R90"/>
+<smd name="2" x="1.55" y="0" dx="1.8" dy="1.1" layer="1" rot="R90"/>
+<text x="0" y="1.85" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.05" y="-2.65" size="0.8128" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-2.3" y="1.55"/>
+<vertex x="2.3" y="1.55"/>
+<vertex x="2.3" y="-1.55"/>
+<vertex x="-2.3" y="-1.55"/>
+</polygon>
+<wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.1" layer="51"/>
+<wire x1="1.6" y1="1.25" x2="1.6" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-1.25" x2="-1.6" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.1" layer="51"/>
+<wire x1="-1.7" y1="1.35" x2="1.7" y2="1.35" width="0.2" layer="21"/>
+<wire x1="1.7" y1="-1.35" x2="-1.7" y2="-1.35" width="0.2" layer="21"/>
+</package>
+<package name="WE-CBF_1806(W=5.5)" urn="urn:adsk.eagle:footprint:7784303/4">
+<description>&lt;b&gt;WE-CBF SMT EMI Suppression Ferrite Bead&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Size: &lt;/b&gt;1806, SMT, 2pins
+&lt;br&gt;L X W X H X FI = 4.5mm X 1.6mm X 1.6mm X 0.5mm</description>
+<smd name="1" x="-2.125" y="0" dx="1.25" dy="1.2" layer="1"/>
+<smd name="2" x="2.125" y="0" dx="1.25" dy="1.2" layer="1"/>
+<wire x1="-2.25" y1="0.8" x2="2.25" y2="0.8" width="0.1" layer="51"/>
+<wire x1="2.25" y1="0.8" x2="2.25" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="-2.25" y1="0.8" x2="-2.25" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="-2.25" y1="-0.8" x2="2.25" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="-2.35" y1="0.9" x2="2.35" y2="0.9" width="0.2" layer="21"/>
+<wire x1="2.35" y1="-0.9" x2="-2.35" y2="-0.9" width="0.2" layer="21"/>
+<text x="0.03" y="1.37" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.07" y="-2.17" size="0.8128" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-2.95" y="1.1"/>
+<vertex x="2.95" y="1.1"/>
+<vertex x="2.85" y="-1.1"/>
+<vertex x="-2.95" y="-1.1"/>
+</polygon>
+</package>
+<package name="WE-CBF_0603(W=2.2)" urn="urn:adsk.eagle:footprint:7784322/4">
+<description>&lt;b&gt;WE-CBF SMT EMI Suppression Ferrite Bead&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Size: &lt;/b&gt;0603, SMT, 2pins
+&lt;br&gt;L X W X H X FI = 1.6mm X 0.8mm X 0.8mm X 0.3mm</description>
+<smd name="1" x="-0.725" y="0" dx="0.75" dy="0.7" layer="1"/>
+<smd name="2" x="0.725" y="0" dx="0.75" dy="0.7" layer="1"/>
+<text x="0.03" y="0.92" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.07" y="-1.77" size="0.8128" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-1.3" y="0.7"/>
+<vertex x="1.3" y="0.7"/>
+<vertex x="1.3" y="-0.7"/>
+<vertex x="-1.3" y="-0.7"/>
+</polygon>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.1" layer="51"/>
+</package>
+<package name="WE-CBF_1806(W=6.5)" urn="urn:adsk.eagle:footprint:7784307/4">
+<description>&lt;b&gt;WE-CBF SMT EMI Suppression Ferrite Bead&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Size: &lt;/b&gt;1806, SMT, 2pins
+&lt;br&gt;L X W X H X FI = 4.5mm X 1.6mm X 1.6mm X 0.5mm</description>
+<smd name="1" x="-2.375" y="0" dx="1.75" dy="1.2" layer="1"/>
+<smd name="2" x="2.375" y="0" dx="1.75" dy="1.2" layer="1"/>
+<wire x1="-2.25" y1="0.8" x2="2.25" y2="0.8" width="0.1" layer="51"/>
+<wire x1="2.25" y1="0.8" x2="2.25" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="-2.25" y1="0.8" x2="-2.25" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="-2.25" y1="-0.8" x2="2.25" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="-2.35" y1="0.9" x2="2.35" y2="0.9" width="0.2" layer="21"/>
+<wire x1="2.35" y1="-0.9" x2="-2.35" y2="-0.9" width="0.2" layer="21"/>
+<text x="0.03" y="1.37" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.17" y="-2.17" size="0.8128" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-3.45" y="1.1"/>
+<vertex x="3.45" y="1.1"/>
+<vertex x="3.45" y="-1.1"/>
+<vertex x="-3.45" y="-1.1"/>
+</polygon>
+</package>
+<package name="WE-CBF_0603(W=2.6)" urn="urn:adsk.eagle:footprint:7784324/4">
+<description>&lt;b&gt;WE-CBF SMT EMI Suppression Ferrite Bead&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Size: &lt;/b&gt;0603, SMT, 2pins
+&lt;br&gt;L X W X H X FI = 1.6mm X 0.8mm X 0.8mm X 0.3mm</description>
+<smd name="1" x="-0.825" y="0" dx="0.95" dy="0.7" layer="1"/>
+<smd name="2" x="0.825" y="0" dx="0.95" dy="0.7" layer="1"/>
+<text x="-0.02" y="0.97" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.12" y="-1.82" size="0.8128" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-1.5" y="0.7"/>
+<vertex x="1.5" y="0.7"/>
+<vertex x="1.5" y="-0.7"/>
+<vertex x="-1.5" y="-0.7"/>
+</polygon>
+<wire x1="0.8" y1="0.4" x2="-0.8" y2="0.4" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="0.4" x2="-0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.1" layer="51"/>
+</package>
+<package name="WE-CBF_1210(W=5.2)" urn="urn:adsk.eagle:footprint:7784320/4">
+<description>&lt;b&gt;WE-CBF SMT EMI Suppression Ferrite Bead&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Size: &lt;/b&gt;1210, SMT, 2pins
+&lt;br&gt;L X W X H X FI = 3.2mm X 2.5mm X 1.3mm X 0.5mm</description>
+<smd name="1" x="-1.8" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.8" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="0" y="1.8" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2" y="-2.7" size="0.8128" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-2.8" y="1.55"/>
+<vertex x="2.8" y="1.55"/>
+<vertex x="2.8" y="-1.55"/>
+<vertex x="-2.8" y="-1.55"/>
+</polygon>
+<wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.1" layer="51"/>
+<wire x1="1.6" y1="1.25" x2="1.6" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-1.25" x2="-1.6" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.1" layer="51"/>
+<wire x1="-1.7" y1="1.35" x2="1.7" y2="1.35" width="0.2" layer="21"/>
+<wire x1="1.7" y1="-1.3" x2="-1.7" y2="-1.3" width="0.2" layer="21"/>
+</package>
+<package name="WE-CBF_1206(W=5.2)" urn="urn:adsk.eagle:footprint:7784321/4">
+<description>&lt;b&gt;WE-CBF SMT EMI Suppression Ferrite Bead&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Size: &lt;/b&gt;1206, SMT, 2pins
+&lt;br&gt;L X W X H X FI = 3.2mm X 1.6mm X 1.1mm X 0.5mm</description>
+<smd name="1" x="-1.8" y="0" dx="1.6" dy="1.2" layer="1"/>
+<smd name="2" x="1.8" y="0" dx="1.6" dy="1.2" layer="1"/>
+<text x="-0.02" y="1.37" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.12" y="-2.22" size="0.8128" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-2.8" y="1.1"/>
+<vertex x="2.8" y="1.1"/>
+<vertex x="2.8" y="-1.1"/>
+<vertex x="-2.8" y="-1.1"/>
+</polygon>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.1" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.1" layer="51"/>
+<wire x1="-1.7" y1="0.9" x2="1.7" y2="0.9" width="0.2" layer="21"/>
+<wire x1="1.7" y1="-0.9" x2="-1.7" y2="-0.9" width="0.2" layer="21"/>
+</package>
+<package name="WE-CBF_1206(W=4.2)" urn="urn:adsk.eagle:footprint:7784323/4">
+<description>&lt;b&gt;WE-CBF SMT EMI Suppression Ferrite Bead&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Size: &lt;/b&gt;1206, SMT, 2pins
+&lt;br&gt;L X W X H X FI = 3.2mm X 1.6mm X 1.1mm X 0.5mm</description>
+<smd name="1" x="-1.55" y="0" dx="1.1" dy="1.2" layer="1"/>
+<smd name="2" x="1.55" y="0" dx="1.1" dy="1.2" layer="1"/>
+<text x="-0.02" y="1.32" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.07" y="-2.17" size="0.8128" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-2.3" y="1.1"/>
+<vertex x="2.3" y="1.1"/>
+<vertex x="2.3" y="-1.1"/>
+<vertex x="-2.3" y="-1.1"/>
+</polygon>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.1" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.1" layer="51"/>
+<wire x1="-1.7" y1="0.9" x2="1.7" y2="0.9" width="0.2" layer="21"/>
+<wire x1="1.7" y1="-0.9" x2="-1.7" y2="-0.9" width="0.2" layer="21"/>
+</package>
+<package name="WE-CBF_1812(W=6.3)" urn="urn:adsk.eagle:footprint:7784309/4">
+<description>&lt;b&gt;WE-CBF SMT EMI Suppression Ferrite Bead&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Size: &lt;/b&gt;1812, SMT, 2pins
+&lt;br&gt;L X W X H X FI = 4.5mm X 3.2mm X 1.5mm X 0.5mm</description>
+<smd name="1" x="-2.45" y="0" dx="1.4" dy="3" layer="1"/>
+<smd name="2" x="2.45" y="0" dx="1.4" dy="3" layer="1"/>
+<wire x1="-2.25" y1="1.6" x2="2.25" y2="1.6" width="0.1" layer="51"/>
+<wire x1="2.25" y1="1.6" x2="2.25" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="-2.25" y1="1.6" x2="-2.25" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="-2.25" y1="-1.6" x2="2.25" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="-1.45" y1="1.7" x2="1.45" y2="1.7" width="0.2" layer="21"/>
+<wire x1="1.45" y1="-1.7" x2="-1.45" y2="-1.7" width="0.2" layer="21"/>
+<text x="-0.04" y="2.24" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.14" y="-3.04" size="0.8128" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-3.35" y="1.9"/>
+<vertex x="3.35" y="1.9"/>
+<vertex x="3.35" y="-1.9"/>
+<vertex x="-3.35" y="-1.9"/>
+</polygon>
+</package>
+<package name="WE-CBF_1812(W=7.3)" urn="urn:adsk.eagle:footprint:7784305/4">
+<description>&lt;b&gt;WE-CBF SMT EMI Suppression Ferrite Bead&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Size: &lt;/b&gt;1812, SMT, 2pins
+&lt;br&gt;L X W X H X FI = 4.5mm X 3.2mm X 1.5mm X 0.5mm</description>
+<smd name="1" x="-2.7" y="0" dx="1.9" dy="3" layer="1"/>
+<smd name="2" x="2.7" y="0" dx="1.9" dy="3" layer="1"/>
+<wire x1="-2.25" y1="1.6" x2="2.25" y2="1.6" width="0.1" layer="51"/>
+<wire x1="2.25" y1="1.6" x2="2.25" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="-2.25" y1="1.6" x2="-2.25" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="-2.25" y1="-1.6" x2="2.25" y2="-1.6" width="0.1" layer="51"/>
+<wire x1="-1.45" y1="1.7" x2="1.45" y2="1.7" width="0.2" layer="21"/>
+<wire x1="1.45" y1="-1.7" x2="-1.45" y2="-1.7" width="0.2" layer="21"/>
+<text x="-0.04" y="2.24" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.14" y="-3.04" size="0.8128" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-3.85" y="1.9"/>
+<vertex x="3.85" y="1.9"/>
+<vertex x="3.85" y="-1.9"/>
+<vertex x="-3.85" y="-1.9"/>
+</polygon>
+</package>
+<package name="WE-CBF_0402(W=1.5)" urn="urn:adsk.eagle:footprint:7784328/4">
+<description>&lt;b&gt;WE-CBF SMT EMI Suppression Ferrite Bead&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Size: &lt;/b&gt;0402, SMT, 2pins
+&lt;br&gt;L X W X H X FI = 1mm X 0.5mm X 0.5mm X 0.25mm</description>
+<smd name="1" x="-0.5" y="0" dx="0.5" dy="0.6" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.5" dy="0.6" layer="1"/>
+<text x="0.03" y="0.785" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.05" y="-1.68" size="0.8128" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-0.95" y="0.55"/>
+<vertex x="0.95" y="0.55"/>
+<vertex x="0.95" y="-0.55"/>
+<vertex x="-0.95" y="-0.55"/>
+</polygon>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.127" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.127" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.127" layer="51"/>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.127" layer="51"/>
+</package>
+<package name="WE-CBF_0805(W=4.0)" urn="urn:adsk.eagle:footprint:7784325/4">
+<description>&lt;b&gt;WE-CBF SMT EMI Suppression Ferrite Bead&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Size: &lt;/b&gt;0805, SMT, 2pins
+&lt;br&gt;L X W X H X FI = 2mm X 1.2mm X 0.9mm X 0.5mm</description>
+<smd name="1" x="-1.3" y="0" dx="1.4" dy="1" layer="1"/>
+<smd name="2" x="1.3" y="0" dx="1.4" dy="1" layer="1"/>
+<text x="0.03" y="1.22" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.12" y="-2.07" size="0.8128" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-2.2" y="0.9"/>
+<vertex x="2.2" y="0.9"/>
+<vertex x="2.2" y="-0.9"/>
+<vertex x="-2.2" y="-0.9"/>
+</polygon>
+<wire x1="-1" y1="0.6" x2="1" y2="0.6" width="0.1" layer="51"/>
+<wire x1="1" y1="-0.6" x2="-1" y2="-0.6" width="0.1" layer="51"/>
+<wire x1="1" y1="0.6" x2="1" y2="-0.6" width="0.1" layer="51"/>
+<wire x1="-1" y1="0.6" x2="-1" y2="-0.6" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="0.7" x2="0.3" y2="0.7" width="0.2" layer="21"/>
+<wire x1="0.3" y1="-0.7" x2="-0.3" y2="-0.7" width="0.2" layer="21"/>
+</package>
+<package name="WE-CBF_0402(W=2.2)" urn="urn:adsk.eagle:footprint:7784326/4">
+<description>&lt;b&gt;WE-CBF SMT EMI Suppression Ferrite Bead&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Size: &lt;/b&gt;0402, SMT, 2pins
+&lt;br&gt;L X W X H X FI = 1mm X 0.5mm X 0.5mm X 0.25mm</description>
+<smd name="1" x="-0.675" y="0" dx="0.85" dy="0.6" layer="1"/>
+<smd name="2" x="0.675" y="0" dx="0.85" dy="0.6" layer="1"/>
+<text x="0.03" y="0.87" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-2.07" y="-1.62" size="0.8128" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-1.3" y="0.55"/>
+<vertex x="1.3" y="0.55"/>
+<vertex x="1.3" y="-0.55"/>
+<vertex x="-1.3" y="-0.55"/>
+</polygon>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.1" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.1" layer="51"/>
+</package>
+<package name="WE-CBF_0805(W=3.0)" urn="urn:adsk.eagle:footprint:7784327/4">
+<description>&lt;b&gt;WE-CBF SMT EMI Suppression Ferrite Bead&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Size: &lt;/b&gt;0805, SMT, 2pins
+&lt;br&gt;L X W X H X FI = 2mm X 1.2mm X 0.9mm X 0.5mm</description>
+<smd name="1" x="-1.05" y="0" dx="0.9" dy="1" layer="1"/>
+<smd name="2" x="1.05" y="0" dx="0.9" dy="1" layer="1"/>
+<text x="-2.02" y="-2.02" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-0.02" y="1.17" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<polygon width="0.1" layer="39">
+<vertex x="-1.7" y="0.9"/>
+<vertex x="1.7" y="0.9"/>
+<vertex x="1.7" y="-0.9"/>
+<vertex x="-1.7" y="-0.9"/>
+</polygon>
+<wire x1="-1" y1="0.6" x2="1" y2="0.6" width="0.1" layer="51"/>
+<wire x1="1" y1="0.6" x2="1" y2="-0.6" width="0.1" layer="51"/>
+<wire x1="1" y1="-0.6" x2="-1" y2="-0.6" width="0.1" layer="51"/>
+<wire x1="-1" y1="-0.6" x2="-1" y2="0.6" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="0.7" x2="0.3" y2="0.7" width="0.2" layer="21"/>
+<wire x1="0.3" y1="-0.7" x2="-0.3" y2="-0.7" width="0.2" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="WE-CBF_1210(W=4.2)" urn="urn:adsk.eagle:package:7784390/6" type="model">
+<description>&lt;b&gt;WE-CBF SMT EMI Suppression Ferrite Bead&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Size: &lt;/b&gt;1210, SMT, 2pins
+&lt;br&gt;L X W X H X FI = 3.2mm X 2.5mm X 1.3mm X 0.5mm</description>
+<packageinstances>
+<packageinstance name="WE-CBF_1210(W=4.2)"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CBF_1210(W=5.2)" urn="urn:adsk.eagle:package:7784391/6" type="model">
+<description>&lt;b&gt;WE-CBF SMT EMI Suppression Ferrite Bead&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Size: &lt;/b&gt;1210, SMT, 2pins
+&lt;br&gt;L X W X H X FI = 3.2mm X 2.5mm X 1.3mm X 0.5mm</description>
+<packageinstances>
+<packageinstance name="WE-CBF_1210(W=5.2)"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CBF_1806(W=5.5)" urn="urn:adsk.eagle:package:7784374/6" type="model">
+<description>&lt;b&gt;WE-CBF SMT EMI Suppression Ferrite Bead&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Size: &lt;/b&gt;1806, SMT, 2pins
+&lt;br&gt;L X W X H X FI = 4.5mm X 1.6mm X 1.6mm X 0.5mm</description>
+<packageinstances>
+<packageinstance name="WE-CBF_1806(W=5.5)"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CBF_1806(W=6.5)" urn="urn:adsk.eagle:package:7784378/6" type="model">
+<description>&lt;b&gt;WE-CBF SMT EMI Suppression Ferrite Bead&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Size: &lt;/b&gt;1806, SMT, 2pins
+&lt;br&gt;L X W X H X FI = 4.5mm X 1.6mm X 1.6mm X 0.5mm</description>
+<packageinstances>
+<packageinstance name="WE-CBF_1806(W=6.5)"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CBF_0603(W=2.2)" urn="urn:adsk.eagle:package:7784393/6" type="model">
+<description>&lt;b&gt;WE-CBF SMT EMI Suppression Ferrite Bead&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Size: &lt;/b&gt;0603, SMT, 2pins
+&lt;br&gt;L X W X H X FI = 1.6mm X 0.8mm X 0.8mm X 0.3mm</description>
+<packageinstances>
+<packageinstance name="WE-CBF_0603(W=2.2)"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CBF_0603(W=2.6)" urn="urn:adsk.eagle:package:7784395/6" type="model">
+<description>&lt;b&gt;WE-CBF SMT EMI Suppression Ferrite Bead&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Size: &lt;/b&gt;0603, SMT, 2pins
+&lt;br&gt;L X W X H X FI = 1.6mm X 0.8mm X 0.8mm X 0.3mm</description>
+<packageinstances>
+<packageinstance name="WE-CBF_0603(W=2.6)"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CBF_1206(W=4.2)" urn="urn:adsk.eagle:package:7784394/6" type="model">
+<description>&lt;b&gt;WE-CBF SMT EMI Suppression Ferrite Bead&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Size: &lt;/b&gt;1206, SMT, 2pins
+&lt;br&gt;L X W X H X FI = 3.2mm X 1.6mm X 1.1mm X 0.5mm</description>
+<packageinstances>
+<packageinstance name="WE-CBF_1206(W=4.2)"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CBF_1206(W=5.2)" urn="urn:adsk.eagle:package:7784392/6" type="model">
+<description>&lt;b&gt;WE-CBF SMT EMI Suppression Ferrite Bead&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Size: &lt;/b&gt;1206, SMT, 2pins
+&lt;br&gt;L X W X H X FI = 3.2mm X 1.6mm X 1.1mm X 0.5mm</description>
+<packageinstances>
+<packageinstance name="WE-CBF_1206(W=5.2)"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CBF_1812(W=6.3)" urn="urn:adsk.eagle:package:7784380/6" type="model">
+<description>&lt;b&gt;WE-CBF SMT EMI Suppression Ferrite Bead&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Size: &lt;/b&gt;1812, SMT, 2pins
+&lt;br&gt;L X W X H X FI = 4.5mm X 3.2mm X 1.5mm X 0.5mm</description>
+<packageinstances>
+<packageinstance name="WE-CBF_1812(W=6.3)"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CBF_1812(W=7.3)" urn="urn:adsk.eagle:package:7784376/6" type="model">
+<description>&lt;b&gt;WE-CBF SMT EMI Suppression Ferrite Bead&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Size: &lt;/b&gt;1812, SMT, 2pins
+&lt;br&gt;L X W X H X FI = 4.5mm X 3.2mm X 1.5mm X 0.5mm</description>
+<packageinstances>
+<packageinstance name="WE-CBF_1812(W=7.3)"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CBF_0402(W=2.2)" urn="urn:adsk.eagle:package:7784397/6" type="model">
+<description>&lt;b&gt;WE-CBF SMT EMI Suppression Ferrite Bead&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Size: &lt;/b&gt;0402, SMT, 2pins
+&lt;br&gt;L X W X H X FI = 1mm X 0.5mm X 0.5mm X 0.25mm</description>
+<packageinstances>
+<packageinstance name="WE-CBF_0402(W=2.2)"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CBF_0402(W=1.5)" urn="urn:adsk.eagle:package:7784399/6" type="model">
+<description>&lt;b&gt;WE-CBF SMT EMI Suppression Ferrite Bead&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Size: &lt;/b&gt;0402, SMT, 2pins
+&lt;br&gt;L X W X H X FI = 1mm X 0.5mm X 0.5mm X 0.25mm</description>
+<packageinstances>
+<packageinstance name="WE-CBF_0402(W=1.5)"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CBF_0805(W=3.0)" urn="urn:adsk.eagle:package:7784398/6" type="model">
+<description>&lt;b&gt;WE-CBF SMT EMI Suppression Ferrite Bead&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Size: &lt;/b&gt;0805, SMT, 2pins
+&lt;br&gt;L X W X H X FI = 2mm X 1.2mm X 0.9mm X 0.5mm</description>
+<packageinstances>
+<packageinstance name="WE-CBF_0805(W=3.0)"/>
+</packageinstances>
+</package3d>
+<package3d name="WE-CBF_0805(W=4.0)" urn="urn:adsk.eagle:package:7784396/6" type="model">
+<description>&lt;b&gt;WE-CBF SMT EMI Suppression Ferrite Bead&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;Size: &lt;/b&gt;0805, SMT, 2pins
+&lt;br&gt;L X W X H X FI = 2mm X 1.2mm X 0.9mm X 0.5mm</description>
+<packageinstances>
+<packageinstance name="WE-CBF_0805(W=4.0)"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="L">
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="0" y="2.54" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-5.08" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WE-CBF_1806" prefix="L">
+<description>&lt;b&gt; WE-CBF SMD EMI Suppression Ferrite Bead
+&lt;br&gt;
+&lt;br&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Reliable Ni-Sn electrodes
+&lt;br&gt; High rated current up to 6 A
+
+&lt;br&gt; Operating temperature: –55 ºC to +125 ºC
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Perfect as data lined filter and for uncoupling of distribution voltage
+&lt;br&gt;&lt;br&gt;&lt;b&gt; Package name and Variant abbreviation:&lt;br&gt;&lt;br&gt;
+Package: 
+&lt;/b&gt;&lt;br&gt;Wide Band /High Speed: W=Width= 5.5
+&lt;br&gt;High Current: W=Width= 6.5
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Variant abbreviation:
+&lt;/b&gt;&lt;br&gt;WB = Wide Band 
+&lt;br&gt;HS=High Speed
+&lt;br&gt;HC=High Current 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14753v209%20Family_WE-CBF.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14753v209%20Family_WE-CBF.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/katalog/en/WE-CBF"&gt;https://www.we-online.com/katalog/en/WE-CBF&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu   2021-08-20&lt;br&gt;
+2021(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_WB_HS" package="WE-CBF_1806(W=5.5)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7784374/6"/>
+</package3dinstances>
+<technologies>
+<technology name="_7427924">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7427924.pdf"/>
+<attribute name="IR2" value="7100mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7427924 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="60Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="130Ohm@1000 MHz"/>
+</technology>
+<technology name="_74279241">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279241.pdf"/>
+<attribute name="IR2" value="5000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279241 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="80Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="160Ohm@1000 MHz"/>
+</technology>
+<technology name="_74279242">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279242.pdf"/>
+<attribute name="IR2" value="2000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279242 "/>
+<attribute name="RDC-MAX" value="0.5Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="150Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="280Ohm@500 MHz"/>
+</technology>
+<technology name="_74279246">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279246.pdf"/>
+<attribute name="IR2" value="1500mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279246 "/>
+<attribute name="RDC-MAX" value="0.09Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="1000Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="1045Ohm@85 MHz"/>
+</technology>
+</technologies>
+</device>
+<device name="_HC" package="WE-CBF_1806(W=6.5)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7784378/6"/>
+</package3dinstances>
+<technologies>
+<technology name="_742792410">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792410.pdf"/>
+<attribute name="IR2" value="6000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792410 "/>
+<attribute name="RDC-MAX" value="0.01Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="60Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="120Ohm@1000 MHz"/>
+</technology>
+<technology name="_742792411">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792411.pdf"/>
+<attribute name="IR2" value="3000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792411 "/>
+<attribute name="RDC-MAX" value="0.04Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="80Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="140Ohm@1000 MHz"/>
+</technology>
+<technology name="_74279243">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279243.pdf"/>
+<attribute name="IR2" value="3000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279243 "/>
+<attribute name="RDC-MAX" value="0.025Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="75Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="160Ohm@1000 MHz"/>
+</technology>
+<technology name="_74279244">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279244.pdf"/>
+<attribute name="IR2" value="1500mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279244 "/>
+<attribute name="RDC-MAX" value="0.1Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="850Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="1250Ohm@50 MHz"/>
+</technology>
+<technology name="_74279245">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279245.pdf"/>
+<attribute name="IR2" value="4000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279245 "/>
+<attribute name="RDC-MAX" value="0.035Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="110Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="170Ohm@600 MHz"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-CBF_0603" prefix="L">
+<description>&lt;b&gt; WE-CBF SMD EMI Suppression Ferrite Bead
+&lt;br&gt;
+&lt;br&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Reliable Ni-Sn electrodes
+&lt;br&gt; High rated current up to 6 A
+&lt;br&gt; Operating temperature: –55 ºC to +125 ºC
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Perfect as data lined filter and for uncoupling of distribution voltage
+&lt;br&gt;&lt;br&gt;&lt;b&gt; Package name and Variant abbreviation:&lt;br&gt;&lt;br&gt;
+Package: 
+&lt;/b&gt;&lt;br&gt;Wide Band /High Speed: W=Width= 2.2
+&lt;br&gt;High Current: W=Width= 2.6
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Variant abbreviation:
+&lt;/b&gt;&lt;br&gt;WB = Wide Band 
+&lt;br&gt;HS=High Speed
+&lt;br&gt;HC=High Current 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14753v209%20Family_WE-CBF.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14753v209%20Family_WE-CBF.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/katalog/en/WE-CBF"&gt;https://www.we-online.com/katalog/en/WE-CBF&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu   2021-1-12&lt;br&gt;
+2021(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_WB_HS" package="WE-CBF_0603(W=2.2)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7784393/6"/>
+</package3dinstances>
+<technologies>
+<technology name="_74279260">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279260.pdf"/>
+<attribute name="IR2" value="2200mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279260 "/>
+<attribute name="RDC-MAX" value="0.15Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="40Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="60Ohm@1000 MHz"/>
+</technology>
+<technology name="_742792605">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792605.pdf"/>
+<attribute name="IR2" value="2200mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792605 "/>
+<attribute name="RDC-MAX" value="0.1Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="33Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="50Ohm@1000 MHz"/>
+</technology>
+<technology name="_742792606">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792606.pdf"/>
+<attribute name="IR2" value="1600mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792606 "/>
+<attribute name="RDC-MAX" value="0.35Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="120Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="388Ohm@550 MHz"/>
+</technology>
+<technology name="_742792607">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792607.pdf"/>
+<attribute name="IR2" value="1700mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792607 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="68Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="284Ohm@800 MHz"/>
+</technology>
+<technology name="_742792608">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792608.pdf"/>
+<attribute name="IR2" value="1300mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792608 "/>
+<attribute name="RDC-MAX" value="0.1Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="47Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="75Ohm@1000 MHz"/>
+</technology>
+<technology name="_74279261">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279261.pdf"/>
+<attribute name="IR2" value="1000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279261 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="80Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="350Ohm@650 MHz"/>
+</technology>
+<technology name="_74279262">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279262.pdf"/>
+<attribute name="IR2" value="1350mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279262 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="120Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="200Ohm@510 MHz"/>
+</technology>
+<technology name="_742792620">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792620.pdf"/>
+<attribute name="IR2" value="1650mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792620 "/>
+<attribute name="RDC-MAX" value="0.15Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="100Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="125Ohm@450 MHz"/>
+</technology>
+<technology name="_742792621">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792621.pdf"/>
+<attribute name="IR2" value="1250mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792621 "/>
+<attribute name="RDC-MAX" value="0.2Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="140Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="430Ohm@550 MHz"/>
+</technology>
+<technology name="_742792622">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792622.pdf"/>
+<attribute name="IR2" value="1500mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792622 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="180Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="283Ohm@410 MHz"/>
+</technology>
+<technology name="_74279263">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279263.pdf"/>
+<attribute name="IR2" value="1000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279263 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="220Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="280Ohm@350 MHz"/>
+</technology>
+<technology name="_742792631">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792631.pdf"/>
+<attribute name="IR2" value="1800mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792631 "/>
+<attribute name="RDC-MAX" value="0.4Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="240Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="340Ohm@375 MHz"/>
+</technology>
+<technology name="_74279264">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279264.pdf"/>
+<attribute name="IR2" value="1000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279264 "/>
+<attribute name="RDC-MAX" value="0.35Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="300Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="500Ohm@320 MHz"/>
+</technology>
+<technology name="_742792640">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792640.pdf"/>
+<attribute name="IR2" value="750mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792640 "/>
+<attribute name="RDC-MAX" value="0.35Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="300Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="1500Ohm@250 MHz"/>
+</technology>
+<technology name="_742792642">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792642.pdf"/>
+<attribute name="IR2" value="950mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792642 "/>
+<attribute name="RDC-MAX" value="0.45Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="470Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="780Ohm@300 MHz"/>
+</technology>
+<technology name="_742792643">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792643.pdf"/>
+<attribute name="IR2" value="730mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792643 "/>
+<attribute name="RDC-MAX" value="0.35Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="470Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="700Ohm@250 MHz"/>
+</technology>
+<technology name="_74279265">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279265.pdf"/>
+<attribute name="IR2" value="850mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279265 "/>
+<attribute name="RDC-MAX" value="0.45Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="600Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="720Ohm@200 MHz"/>
+</technology>
+<technology name="_742792653">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792653.pdf"/>
+<attribute name="IR2" value="500mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792653 "/>
+<attribute name="RDC-MAX" value="0.65Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="600Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="4500Ohm@200 MHz"/>
+</technology>
+<technology name="_742792656">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792656.pdf"/>
+<attribute name="IR2" value="900mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792656 "/>
+<attribute name="RDC-MAX" value="0.35Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="750Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="800Ohm@150 MHz"/>
+</technology>
+<technology name="_74279266">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279266.pdf"/>
+<attribute name="IR2" value="650mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279266 "/>
+<attribute name="RDC-MAX" value="0.6Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="1000Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="1350Ohm@140 MHz"/>
+</technology>
+<technology name="_742792662">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792662.pdf"/>
+<attribute name="IR2" value="830mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792662 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="1000Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="1050Ohm@120 MHz"/>
+</technology>
+<technology name="_742792663">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792663.pdf"/>
+<attribute name="IR2" value="650mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792663 "/>
+<attribute name="RDC-MAX" value="0.85Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="1000Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="1100Ohm@150 MHz"/>
+</technology>
+<technology name="_742792664">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792664.pdf"/>
+<attribute name="IR2" value="680mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792664 "/>
+<attribute name="RDC-MAX" value="0.6Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="1000Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="1100Ohm@120 MHz"/>
+</technology>
+<technology name="_74279267">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279267.pdf"/>
+<attribute name="IR2" value="2000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279267 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="60Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="110Ohm@650 MHz"/>
+</technology>
+<technology name="_74279268">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279268.pdf"/>
+<attribute name="IR2" value="1900mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279268 "/>
+<attribute name="RDC-MAX" value="0.1Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="15Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="60Ohm@1000 MHz"/>
+</technology>
+<technology name="_74279269">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279269.pdf"/>
+<attribute name="IR2" value="650mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279269 "/>
+<attribute name="RDC-MAX" value="0.7Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="1200Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="1500Ohm@150 MHz"/>
+</technology>
+<technology name="_742792691">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792691.pdf"/>
+<attribute name="IR2" value="650mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792691 "/>
+<attribute name="RDC-MAX" value="0.7Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="1500Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="1900Ohm@140 MHz"/>
+</technology>
+<technology name="_742792692">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792692.pdf"/>
+<attribute name="IR2" value="500mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792692 "/>
+<attribute name="RDC-MAX" value="0.8Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="1800Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="2100Ohm@130 MHz"/>
+</technology>
+<technology name="_742792693">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792693.pdf"/>
+<attribute name="IR2" value="500mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792693 "/>
+<attribute name="RDC-MAX" value="0.8Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="2200Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="2250Ohm@110 MHz"/>
+</technology>
+<technology name="_742792695">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792695.pdf"/>
+<attribute name="IR2" value="450mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792695 "/>
+<attribute name="RDC-MAX" value="1Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="2500Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="3000Ohm@80 MHz"/>
+</technology>
+</technologies>
+</device>
+<device name="_HC" package="WE-CBF_0603(W=2.6)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7784395/6"/>
+</package3dinstances>
+<technologies>
+<technology name="_742792601">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792601.pdf"/>
+<attribute name="IR2" value="1000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792601 "/>
+<attribute name="RDC-MAX" value="0.03Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="30Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="65Ohm@1000 MHz"/>
+</technology>
+<technology name="_742792602">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792602.pdf"/>
+<attribute name="IR2" value="3000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792602 "/>
+<attribute name="RDC-MAX" value="0.04Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="60Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="110Ohm@600 MHz"/>
+</technology>
+<technology name="_742792603">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792603.pdf"/>
+<attribute name="IR2" value="4000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792603 "/>
+<attribute name="RDC-MAX" value="0.03Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="28Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="45Ohm@1000 MHz"/>
+</technology>
+<technology name="_742792604">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792604.pdf"/>
+<attribute name="IR2" value="1000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792604 "/>
+<attribute name="RDC-MAX" value="0.05Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="22Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="40Ohm@1000 MHz"/>
+</technology>
+<technology name="_742792609">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792609.pdf"/>
+<attribute name="IR2" value="3000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792609 "/>
+<attribute name="RDC-MAX" value="0.04Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="30Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="40Ohm@1000 MHz"/>
+</technology>
+<technology name="_742792624">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792624.pdf"/>
+<attribute name="IR2" value="1500mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792624 "/>
+<attribute name="RDC-MAX" value="0.09Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="180Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="250Ohm@400 MHz"/>
+</technology>
+<technology name="_742792625">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792625.pdf"/>
+<attribute name="IR2" value="2000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792625 "/>
+<attribute name="RDC-MAX" value="0.05Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="120Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="180Ohm@400 MHz"/>
+</technology>
+<technology name="_742792641">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792641.pdf"/>
+<attribute name="IR2" value="2000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792641 "/>
+<attribute name="RDC-MAX" value="0.15Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="300Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="450Ohm@250 MHz"/>
+</technology>
+<technology name="_742792645">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792645.pdf"/>
+<attribute name="IR2" value="1000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792645 "/>
+<attribute name="RDC-MAX" value="0.2Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="470Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="600Ohm@230 MHz"/>
+</technology>
+<technology name="_742792651">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792651.pdf"/>
+<attribute name="IR2" value="1000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792651 "/>
+<attribute name="RDC-MAX" value="0.2Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="600Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="800Ohm@200 MHz"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-CBF_1210" prefix="L">
+<description>&lt;b&gt; WE-CBF SMD EMI Suppression Ferrite Bead
+&lt;br&gt;
+&lt;br&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Reliable Ni-Sn electrodes
+&lt;br&gt; High rated current up to 6 A
+&lt;br&gt; Operating temperature: –55 ºC to +125 ºC
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Perfect as data lined filter and for uncoupling of distribution voltage
+&lt;br&gt;&lt;br&gt;&lt;b&gt; Package name and Variant abbreviation:&lt;br&gt;&lt;br&gt;
+Package: 
+&lt;/b&gt;&lt;br&gt;Wide Band /High Speed: W=Width= 4.2
+&lt;br&gt;High Current: W=Width= 5.2
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Variant abbreviation:
+&lt;/b&gt;&lt;br&gt;WB = Wide Band 
+&lt;br&gt;HS=High Speed
+&lt;br&gt;HC=High Current 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14753v209%20Family_WE-CBF.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14753v209%20Family_WE-CBF.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/katalog/en/WE-CBF"&gt;https://www.we-online.com/katalog/en/WE-CBF&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu   2021-1-12&lt;br&gt;
+2021(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_WB_HS" package="WE-CBF_1210(W=4.2)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7784390/6"/>
+</package3dinstances>
+<technologies>
+<technology name="_7427923">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7427923.pdf"/>
+<attribute name="IR2" value="3400mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7427923 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="90Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="180Ohm@1000 MHz"/>
+</technology>
+<technology name="_74279230">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279230.pdf"/>
+<attribute name="IR2" value="7800mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279230 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="32Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="70Ohm@1000 MHz"/>
+</technology>
+<technology name="_74279231">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279231.pdf"/>
+<attribute name="IR2" value="4800mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279231 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="60Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="100Ohm@1000 MHz"/>
+</technology>
+</technologies>
+</device>
+<device name="_HC" package="WE-CBF_1210(W=5.2)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7784391/6"/>
+</package3dinstances>
+<technologies>
+<technology name="_742792310">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792310.pdf"/>
+<attribute name="IR2" value="3000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792310 "/>
+<attribute name="RDC-MAX" value="0.05Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="30Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="50Ohm@900 MHz"/>
+</technology>
+<technology name="_742792311">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792311.pdf"/>
+<attribute name="IR2" value="3000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792311 "/>
+<attribute name="RDC-MAX" value="0.05Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="52Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="90Ohm@1000 MHz"/>
+</technology>
+<technology name="_742792312">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792312.pdf"/>
+<attribute name="IR2" value="3000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792312 "/>
+<attribute name="RDC-MAX" value="0.03Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="65Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="110Ohm@1000 MHz"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-CBF_1206" prefix="L">
+<description>&lt;b&gt; WE-CBF SMD EMI Suppression Ferrite Bead
+&lt;br&gt;
+&lt;br&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Reliable Ni-Sn electrodes
+&lt;br&gt; High rated current up to 6 A
+
+&lt;br&gt; Operating temperature: –55 ºC to +125 ºC
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Perfect as data lined filter and for uncoupling of distribution voltage
+&lt;br&gt;&lt;br&gt;&lt;b&gt; Package name and Variant abbreviation:&lt;br&gt;&lt;br&gt;
+Package: 
+&lt;/b&gt;&lt;br&gt;Wide Band /High Speed: W=Width= 4.2
+&lt;br&gt;High Current: W=Width= 5.2
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Variant abbreviation:
+&lt;/b&gt;&lt;br&gt;WB = Wide Band 
+&lt;br&gt;HS=High Speed
+&lt;br&gt;HC=High Current 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14753v209%20Family_WE-CBF.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14753v209%20Family_WE-CBF.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/katalog/en/WE-CBF"&gt;https://www.we-online.com/katalog/en/WE-CBF&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu   2021-1-12&lt;br&gt;
+2021(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_WB_HS" package="WE-CBF_1206(W=4.2)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7784394/6"/>
+</package3dinstances>
+<technologies>
+<technology name="_7427921">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7427921.pdf"/>
+<attribute name="IR2" value="8100mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7427921 "/>
+<attribute name="RDC-MAX" value="0.2Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="32Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="70Ohm@1000 MHz"/>
+</technology>
+<technology name="_74279210">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279210.pdf"/>
+<attribute name="IR2" value="3000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279210 "/>
+<attribute name="RDC-MAX" value="0.04Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="30Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="52Ohm@1000 MHz"/>
+</technology>
+<technology name="_74279211">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279211.pdf"/>
+<attribute name="IR2" value="3600mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279211 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="90Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="170Ohm@550 MHz"/>
+</technology>
+<technology name="_742792113">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792113.pdf"/>
+<attribute name="IR2" value="3000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792113 "/>
+<attribute name="RDC-MAX" value="0.03Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="120Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="180Ohm@500 MHz"/>
+</technology>
+<technology name="_742792115">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792115.pdf"/>
+<attribute name="IR2" value="4000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792115 "/>
+<attribute name="RDC-MAX" value="0.025Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="80Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="120Ohm@500 MHz"/>
+</technology>
+<technology name="_742792122">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792122.pdf"/>
+<attribute name="IR2" value="3000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792122 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="220Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="240Ohm@200 MHz"/>
+</technology>
+<technology name="_742792131">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792131.pdf"/>
+<attribute name="IR2" value="2600mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792131 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="600Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="630Ohm@90 MHz"/>
+</technology>
+<technology name="_742792133">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792133.pdf"/>
+<attribute name="IR2" value="2500mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792133 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="600Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="750Ohm@60 MHz"/>
+</technology>
+<technology name="_74279214">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279214.pdf"/>
+<attribute name="IR2" value="1300mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279214 "/>
+<attribute name="RDC-MAX" value="0.45Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="1000Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="1250Ohm@75 MHz"/>
+</technology>
+<technology name="_742792141">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792141.pdf"/>
+<attribute name="IR2" value="1000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792141 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="1000Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="1100Ohm@90 MHz"/>
+</technology>
+<technology name="_742792150">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792150.pdf"/>
+<attribute name="IR2" value="4000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792150 "/>
+<attribute name="RDC-MAX" value="0.02Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="80Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="160Ohm@550 MHz"/>
+</technology>
+<technology name="_742792151">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792151.pdf"/>
+<attribute name="IR2" value="2500mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792151 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="70Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="105Ohm@600 MHz"/>
+</technology>
+<technology name="_742792161">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792161.pdf"/>
+<attribute name="IR2" value="1100mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792161 "/>
+<attribute name="RDC-MAX" value="0.5Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="1000Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="1500Ohm@50 MHz"/>
+</technology>
+<technology name="_74279217">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279217.pdf"/>
+<attribute name="IR2" value="650mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279217 "/>
+<attribute name="RDC-MAX" value="0.45Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="1000Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="5000Ohm@50 MHz"/>
+</technology>
+<technology name="_74279218">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279218.pdf"/>
+<attribute name="IR2" value="2000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279218 "/>
+<attribute name="RDC-MAX" value="0.1Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="600Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="700Ohm@90 MHz"/>
+</technology>
+<technology name="_74279219">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279219.pdf"/>
+<attribute name="IR2" value="450mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279219 "/>
+<attribute name="RDC-MAX" value="0.65Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="700Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="2000Ohm@30 MHz"/>
+</technology>
+<technology name="_7427922">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7427922.pdf"/>
+<attribute name="IR2" value="5000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7427922 "/>
+<attribute name="RDC-MAX" value="0.2Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="60Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="120Ohm@1000 MHz"/>
+</technology>
+</technologies>
+</device>
+<device name="_HC" package="WE-CBF_1206(W=5.2)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7784392/6"/>
+</package3dinstances>
+<technologies>
+<technology name="_742792110">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792110.pdf"/>
+<attribute name="IR2" value="3000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792110 "/>
+<attribute name="RDC-MAX" value="0.04Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="19Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="73Ohm@1000 MHz"/>
+</technology>
+<technology name="_742792111">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792111.pdf"/>
+<attribute name="IR2" value="3000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792111 "/>
+<attribute name="RDC-MAX" value="0.04Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="26Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="40Ohm@1000 MHz"/>
+</technology>
+<technology name="_742792112">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792112.pdf"/>
+<attribute name="IR2" value="3000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792112 "/>
+<attribute name="RDC-MAX" value="0.04Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="31Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="52Ohm@1000 MHz"/>
+</technology>
+<technology name="_742792114">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792114.pdf"/>
+<attribute name="IR2" value="3000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792114 "/>
+<attribute name="RDC-MAX" value="0.025Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="50Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="82Ohm@1000 MHz"/>
+</technology>
+<technology name="_742792116">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792116.pdf"/>
+<attribute name="IR2" value="2500mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792116 "/>
+<attribute name="RDC-MAX" value="0.06Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="500Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="610Ohm@150 MHz"/>
+</technology>
+<technology name="_742792117">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792117.pdf"/>
+<attribute name="IR2" value="6000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792117 "/>
+<attribute name="RDC-MAX" value="0.005Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="48Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="90Ohm@600 MHz"/>
+</technology>
+<technology name="_742792118">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792118.pdf"/>
+<attribute name="IR2" value="2500mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792118 "/>
+<attribute name="RDC-MAX" value="0.07Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="600Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="650Ohm@80 MHz"/>
+</technology>
+<technology name="_742792121">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792121.pdf"/>
+<attribute name="IR2" value="3000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792121 "/>
+<attribute name="RDC-MAX" value="0.06Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="300Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="330Ohm@110 MHz"/>
+</technology>
+<technology name="_742792124">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792124.pdf"/>
+<attribute name="IR2" value="2700mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792124 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="470Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="500Ohm@140 MHz"/>
+</technology>
+<technology name="_74279213">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279213.pdf"/>
+<attribute name="IR2" value="2500mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279213 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="600Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="600Ohm@100 MHz"/>
+</technology>
+<technology name="_74279215">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279215.pdf"/>
+<attribute name="IR2" value="3000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279215 "/>
+<attribute name="RDC-MAX" value="0.03Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="80Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="110Ohm@2000 MHz"/>
+</technology>
+<technology name="_74279216">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279216.pdf"/>
+<attribute name="IR2" value="1300mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279216 "/>
+<attribute name="RDC-MAX" value="0.5Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="1200Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="1400Ohm@70 MHz"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-CBF_1812" prefix="L">
+<description>&lt;b&gt; WE-CBF SMD EMI Suppression Ferrite Bead
+&lt;br&gt;
+&lt;br&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Reliable Ni-Sn electrodes
+&lt;br&gt; High rated current up to 6 A
+
+&lt;br&gt; Operating temperature: –55 ºC to +125 ºC
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Perfect as data lined filter and for uncoupling of distribution voltage
+&lt;br&gt;&lt;br&gt;&lt;b&gt; Package name and Variant abbreviation:&lt;br&gt;&lt;br&gt;
+Package: 
+&lt;/b&gt;&lt;br&gt;Wide Band /High Speed: W=Width= 6.3
+&lt;br&gt;High Current: W=Width= 7.3
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Variant abbreviation:
+&lt;/b&gt;&lt;br&gt;WB = Wide Band 
+&lt;br&gt;HS=High Speed
+&lt;br&gt;HC=High Current 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14753v209%20Family_WE-CBF.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14753v209%20Family_WE-CBF.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/katalog/en/WE-CBF"&gt;https://www.we-online.com/katalog/en/WE-CBF&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu   2021-1-12&lt;br&gt;
+2021(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_WB_HS" package="WE-CBF_1812(W=6.3)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7784380/6"/>
+</package3dinstances>
+<technologies>
+<technology name="_7427925">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7427925.pdf"/>
+<attribute name="IR2" value="6800mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7427925 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="120Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="200Ohm@800 MHz"/>
+</technology>
+<technology name="_74279250">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279250.pdf"/>
+<attribute name="IR2" value="6000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279250 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="70Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="180Ohm@1000 MHz"/>
+</technology>
+</technologies>
+</device>
+<device name="_HC" package="WE-CBF_1812(W=7.3)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7784376/6"/>
+</package3dinstances>
+<technologies>
+<technology name="_742792510">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792510.pdf"/>
+<attribute name="IR2" value="6000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792510 "/>
+<attribute name="RDC-MAX" value="0.03Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="70Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="120Ohm@1000 MHz"/>
+</technology>
+<technology name="_742792511">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792511.pdf"/>
+<attribute name="IR2" value="3000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792511 "/>
+<attribute name="RDC-MAX" value="0.05Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="120Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="190Ohm@600 MHz"/>
+</technology>
+<technology name="_742792514">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792514.pdf"/>
+<attribute name="IR2" value="3000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792514 "/>
+<attribute name="RDC-MAX" value="0.04Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="600Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="900Ohm@65 MHz"/>
+</technology>
+<technology name="_742792515">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792515.pdf"/>
+<attribute name="IR2" value="3000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792515 "/>
+<attribute name="RDC-MAX" value="0.05Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="785Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="1300Ohm@60 MHz"/>
+</technology>
+<technology name="_74279252">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279252.pdf"/>
+<attribute name="IR2" value="4000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279252 "/>
+<attribute name="RDC-MAX" value="0.035Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="880Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="940Ohm@108 MHz"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-CBF_0402" prefix="L">
+<description>&lt;b&gt; WE-CBF SMD EMI Suppression Ferrite Bead
+&lt;br&gt;
+&lt;br&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Reliable Ni-Sn electrodes
+&lt;br&gt; High rated current up to 6 A
+
+&lt;br&gt; Operating temperature: –55 ºC to +125 ºC
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Perfect as data lined filter and for uncoupling of distribution voltage
+&lt;br&gt;&lt;br&gt;&lt;b&gt; Package name and Variant abbreviation:&lt;br&gt;&lt;br&gt;
+Package: 
+&lt;/b&gt;&lt;br&gt;Wide Band /High Speed: W=Width= 1.5
+&lt;br&gt;High Current: W=Width= 2.2
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Variant abbreviation:
+&lt;/b&gt;&lt;br&gt;WB = Wide Band 
+&lt;br&gt;HS=High Speed
+&lt;br&gt;HC=High Current 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14753v209%20Family_WE-CBF.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14753v209%20Family_WE-CBF.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/katalog/en/WE-CBF"&gt;https://www.we-online.com/katalog/en/WE-CBF&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu   2021-1-12&lt;br&gt;
+2021(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_WB_HS" package="WE-CBF_0402(W=1.5)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7784399/6"/>
+</package3dinstances>
+<technologies>
+<technology name="_74279270">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279270.pdf"/>
+<attribute name="IR2" value="1700mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279270 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="40Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="60Ohm@800 MHz"/>
+</technology>
+<technology name="_742792701">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792701.pdf"/>
+<attribute name="IR2" value="3500mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792701 "/>
+<attribute name="RDC-MAX" value="0.05Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="10Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="16Ohm@1000 MHz"/>
+</technology>
+<technology name="_74279271">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279271.pdf"/>
+<attribute name="IR2" value="1100mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279271 "/>
+<attribute name="RDC-MAX" value="0.2Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="120Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="200Ohm@600 MHz"/>
+</technology>
+<technology name="_742792711">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792711.pdf"/>
+<attribute name="IR2" value="870mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792711 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="100Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="200Ohm@800 MHz"/>
+</technology>
+<technology name="_7427927110">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7427927110.pdf"/>
+<attribute name="IR2" value="2800mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7427927110 "/>
+<attribute name="RDC-MAX" value="0.05Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="10Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="15Ohm@1000 MHz"/>
+</technology>
+<technology name="_7427927112">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7427927112.pdf"/>
+<attribute name="IR2" value="710mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7427927112 "/>
+<attribute name="RDC-MAX" value="0.35Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="120Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="900Ohm@500 MHz"/>
+</technology>
+<technology name="_7427927115">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7427927115.pdf"/>
+<attribute name="IR2" value="900mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7427927115 "/>
+<attribute name="RDC-MAX" value="0.4Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="150Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="300Ohm@500 MHz"/>
+</technology>
+<technology name="_7427927121">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7427927121.pdf"/>
+<attribute name="IR2" value="500mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7427927121 "/>
+<attribute name="RDC-MAX" value="0.8Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="220Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="1300Ohm@350 MHz"/>
+</technology>
+<technology name="_7427927130">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7427927130.pdf"/>
+<attribute name="IR2" value="1350mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7427927130 "/>
+<attribute name="RDC-MAX" value="0.15Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="30Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="110Ohm@1500 MHz"/>
+</technology>
+<technology name="_7427927140">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7427927140.pdf"/>
+<attribute name="IR2" value="1100mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7427927140 "/>
+<attribute name="RDC-MAX" value="0.4Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="47Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="71Ohm@800 MHz"/>
+</technology>
+<technology name="_7427927141">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7427927141.pdf"/>
+<attribute name="IR2" value="620mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7427927141 "/>
+<attribute name="RDC-MAX" value="0.45Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="470Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="1200Ohm@300 MHz"/>
+</technology>
+<technology name="_742792716">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792716.pdf"/>
+<attribute name="IR2" value="1200mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792716 "/>
+<attribute name="RDC-MAX" value="0.25Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="60Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="150Ohm@1000 MHz"/>
+</technology>
+<technology name="_7427927160">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7427927160.pdf"/>
+<attribute name="IR2" value="850mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7427927160 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="60Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="450Ohm@800 MHz"/>
+</technology>
+<technology name="_7427927161">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7427927161.pdf"/>
+<attribute name="IR2" value="510mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7427927161 "/>
+<attribute name="RDC-MAX" value="0.56Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="600Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="1300Ohm@300 MHz"/>
+</technology>
+<technology name="_7427927170">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7427927170.pdf"/>
+<attribute name="IR2" value="650mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7427927170 "/>
+<attribute name="RDC-MAX" value="0.31Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="75Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="400Ohm@800 MHz"/>
+</technology>
+<technology name="_74279272">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279272.pdf"/>
+<attribute name="IR2" value="700mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279272 "/>
+<attribute name="RDC-MAX" value="0.8Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="300Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="400Ohm@380 MHz"/>
+</technology>
+<technology name="_7427927218">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7427927218.pdf"/>
+<attribute name="IR2" value="900mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7427927218 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="180Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="260Ohm@500 MHz"/>
+</technology>
+<technology name="_7427927241">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7427927241.pdf"/>
+<attribute name="IR2" value="550mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7427927241 "/>
+<attribute name="RDC-MAX" value="0.65Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="470Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="600Ohm@300 MHz"/>
+</technology>
+<technology name="_7427927261">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7427927261.pdf"/>
+<attribute name="IR2" value="550mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7427927261 "/>
+<attribute name="RDC-MAX" value="0.6Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="600Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="780Ohm@250 MHz"/>
+</technology>
+<technology name="_7427927280">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7427927280.pdf"/>
+<attribute name="IR2" value="850mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7427927280 "/>
+<attribute name="RDC-MAX" value="0.25Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="80Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="140Ohm@800 MHz"/>
+</technology>
+<technology name="_7427927281">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7427927281.pdf"/>
+<attribute name="IR2" value="500mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7427927281 "/>
+<attribute name="RDC-MAX" value="0.8Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="800Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="1000Ohm@200 MHz"/>
+</technology>
+<technology name="_7427927291">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7427927291.pdf"/>
+<attribute name="IR2" value="510mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7427927291 "/>
+<attribute name="RDC-MAX" value="0.6Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="600Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="900Ohm@250 MHz"/>
+</technology>
+<technology name="_74279273">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279273.pdf"/>
+<attribute name="IR2" value="2000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279273 "/>
+<attribute name="RDC-MAX" value="0.2Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="20Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="30Ohm@600 MHz"/>
+</technology>
+<technology name="_74279274">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279274.pdf"/>
+<attribute name="IR2" value="1600mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279274 "/>
+<attribute name="RDC-MAX" value="0.25Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="30Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="43Ohm@500 MHz"/>
+</technology>
+<technology name="_74279276">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279276.pdf"/>
+<attribute name="IR2" value="1250mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279276 "/>
+<attribute name="RDC-MAX" value="0.35Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="60Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="84Ohm@550 MHz"/>
+</technology>
+<technology name="_74279277">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279277.pdf"/>
+<attribute name="IR2" value="800mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279277 "/>
+<attribute name="RDC-MAX" value="0.15Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="70Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="91Ohm@500 MHz"/>
+</technology>
+<technology name="_74279278">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279278.pdf"/>
+<attribute name="IR2" value="710mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279278 "/>
+<attribute name="RDC-MAX" value="0.7Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="240Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="290Ohm@350 MHz"/>
+</technology>
+<technology name="_742792780">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792780.pdf"/>
+<attribute name="IR2" value="900mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792780 "/>
+<attribute name="RDC-MAX" value="0.35Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="220Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="360Ohm@450 MHz"/>
+</technology>
+<technology name="_74279279">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279279.pdf"/>
+<attribute name="IR2" value="550mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279279 "/>
+<attribute name="RDC-MAX" value="1Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="600Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="660Ohm@180 MHz"/>
+</technology>
+<technology name="_742792796">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792796.pdf"/>
+<attribute name="IR2" value="550mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792796 "/>
+<attribute name="RDC-MAX" value="1.5Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="1000Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="1200Ohm@200 MHz"/>
+</technology>
+</technologies>
+</device>
+<device name="_HC" package="WE-CBF_0402(W=2.2)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7784397/6"/>
+</package3dinstances>
+<technologies>
+<technology name="_742792731">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792731.pdf"/>
+<attribute name="IR2" value="1200mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792731 "/>
+<attribute name="RDC-MAX" value="0.09Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="100Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="140Ohm@600 MHz"/>
+</technology>
+<technology name="_7427927310">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7427927310.pdf"/>
+<attribute name="IR2" value="2000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7427927310 "/>
+<attribute name="RDC-MAX" value="0.03Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="10Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="15Ohm@800 MHz"/>
+</technology>
+<technology name="_7427927311">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7427927311.pdf"/>
+<attribute name="IR2" value="1200mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7427927311 "/>
+<attribute name="RDC-MAX" value="0.09Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="120Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="200Ohm@450 MHz"/>
+</technology>
+<technology name="_7427927370">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7427927370.pdf"/>
+<attribute name="IR2" value="1200mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7427927370 "/>
+<attribute name="RDC-MAX" value="0.09Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="70Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="140Ohm@600 MHz"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WE-CBF_0805" prefix="L">
+<description>&lt;b&gt; WE-CBF SMD EMI Suppression Ferrite Bead
+&lt;br&gt;
+&lt;br&gt; Characteristics
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Reliable Ni-Sn electrodes
+&lt;br&gt; High rated current up to 6 A
+
+&lt;br&gt; Operating temperature: –55 ºC to +125 ºC
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Applications
+&lt;br&gt;
+&lt;br&gt;&lt;/b&gt; Perfect as data lined filter and for uncoupling of distribution voltage
+&lt;br&gt;&lt;br&gt;&lt;b&gt; Package name and Variant abbreviation:&lt;br&gt;&lt;br&gt;
+Package: 
+&lt;/b&gt;&lt;br&gt;Wide Band /High Speed: W=Width= 3.0
+&lt;br&gt;High Current: W=Width= 4.0
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Variant abbreviation:
+&lt;/b&gt;&lt;br&gt;WB = Wide Band 
+&lt;br&gt;HS=High Speed
+&lt;br&gt;HC=High Current 
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14753v209%20Family_WE-CBF.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14753v209%20Family_WE-CBF.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/katalog/en/WE-CBF"&gt;https://www.we-online.com/katalog/en/WE-CBF&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu   2021-1-12&lt;br&gt;
+2021(C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_WB_HS" package="WE-CBF_0805(W=3.0)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7784398/6"/>
+</package3dinstances>
+<technologies>
+<technology name="_7427920">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7427920.pdf"/>
+<attribute name="IR2" value="9600mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7427920 "/>
+<attribute name="RDC-MAX" value="0.15Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="11Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="24Ohm@1000 MHz"/>
+</technology>
+<technology name="_742792005">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792005.pdf"/>
+<attribute name="IR2" value="8000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792005 "/>
+<attribute name="RDC-MAX" value="0.07Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="5Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="18Ohm@1000 MHz"/>
+</technology>
+<technology name="_74279201">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279201.pdf"/>
+<attribute name="IR2" value="2800mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279201 "/>
+<attribute name="RDC-MAX" value="0.15Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="32Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="70Ohm@1000 MHz"/>
+</technology>
+<technology name="_742792015">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792015.pdf"/>
+<attribute name="IR2" value="1800mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792015 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="56Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="230Ohm@800 MHz"/>
+</technology>
+<technology name="_74279202">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279202.pdf"/>
+<attribute name="IR2" value="3400mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279202 "/>
+<attribute name="RDC-MAX" value="0.1Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="120Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="200Ohm@400 MHz"/>
+</technology>
+<technology name="_74279203">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279203.pdf"/>
+<attribute name="IR2" value="2400mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279203 "/>
+<attribute name="RDC-MAX" value="0.25Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="150Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="250Ohm@400 MHz"/>
+</technology>
+<technology name="_742792032">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792032.pdf"/>
+<attribute name="IR2" value="1500mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792032 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="400Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="500Ohm@200 MHz"/>
+</technology>
+<technology name="_742792034">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792034.pdf"/>
+<attribute name="IR2" value="2800mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792034 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="220Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="300Ohm@240 MHz"/>
+</technology>
+<technology name="_742792035">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792035.pdf"/>
+<attribute name="IR2" value="2300mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792035 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="300Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="450Ohm@220 MHz"/>
+</technology>
+<technology name="_742792036">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792036.pdf"/>
+<attribute name="IR2" value="1800mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792036 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="470Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="560Ohm@190 MHz"/>
+</technology>
+<technology name="_742792038">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792038.pdf"/>
+<attribute name="IR2" value="1400mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792038 "/>
+<attribute name="RDC-MAX" value="0.4Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="240Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="280Ohm@250 MHz"/>
+</technology>
+<technology name="_74279204">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279204.pdf"/>
+<attribute name="IR2" value="1500mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279204 "/>
+<attribute name="RDC-MAX" value="0.35Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="600Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="700Ohm@150 MHz"/>
+</technology>
+<technology name="_742792041">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792041.pdf"/>
+<attribute name="IR2" value="1500mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792041 "/>
+<attribute name="RDC-MAX" value="0.4Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="600Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="700Ohm@160 MHz"/>
+</technology>
+<technology name="_7427920415">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/7427920415.pdf"/>
+<attribute name="IR2" value="1500mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7427920415 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="600Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="660Ohm@150 MHz"/>
+</technology>
+<technology name="_742792042">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792042.pdf"/>
+<attribute name="IR2" value="900mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792042 "/>
+<attribute name="RDC-MAX" value="0.5Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="600Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="3000Ohm@180 MHz"/>
+</technology>
+<technology name="_742792043">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792043.pdf"/>
+<attribute name="IR2" value="900mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792043 "/>
+<attribute name="RDC-MAX" value="0.65Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="600Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="4800Ohm@190 MHz"/>
+</technology>
+<technology name="_742792045">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792045.pdf"/>
+<attribute name="IR2" value="900mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792045 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="750Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="1000Ohm@180 MHz"/>
+</technology>
+<technology name="_74279205">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279205.pdf"/>
+<attribute name="IR2" value="900mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279205 "/>
+<attribute name="RDC-MAX" value="0.45Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="1000Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="1050Ohm@150 MHz"/>
+</technology>
+<technology name="_742792062">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792062.pdf"/>
+<attribute name="IR2" value="3100mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792062 "/>
+<attribute name="RDC-MAX" value="0.2Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="80Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="200Ohm@400 MHz"/>
+</technology>
+<technology name="_742792064">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792064.pdf"/>
+<attribute name="IR2" value="1700mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792064 "/>
+<attribute name="RDC-MAX" value="0.2Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="75Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="300Ohm@500 MHz"/>
+</technology>
+<technology name="_74279208">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279208.pdf"/>
+<attribute name="IR2" value="4550mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279208 "/>
+<attribute name="RDC-MAX" value="0.15Ohm"/>
+<attribute name="TYPE" value="High Speed"/>
+<attribute name="VALUE" value="40Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="68Ohm@1000 MHz"/>
+</technology>
+<technology name="_74279209">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279209.pdf"/>
+<attribute name="IR2" value="1200mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279209 "/>
+<attribute name="RDC-MAX" value="0.55Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="1200Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="1400Ohm@150 MHz"/>
+</technology>
+<technology name="_742792090">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792090.pdf"/>
+<attribute name="IR2" value="1000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792090 "/>
+<attribute name="RDC-MAX" value="0.4Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="1800Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="2000Ohm@120 MHz"/>
+</technology>
+<technology name="_742792091">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792091.pdf"/>
+<attribute name="IR2" value="1000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792091 "/>
+<attribute name="RDC-MAX" value="0.55Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="1500Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="1500Ohm@100 MHz"/>
+</technology>
+<technology name="_742792092">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792092.pdf"/>
+<attribute name="IR2" value="800mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792092 "/>
+<attribute name="RDC-MAX" value="0.6Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="2000Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="2000Ohm@100 MHz"/>
+</technology>
+<technology name="_742792093">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792093.pdf"/>
+<attribute name="IR2" value="800mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792093 "/>
+<attribute name="RDC-MAX" value="0.6Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="2200Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="3000Ohm@80 MHz"/>
+</technology>
+<technology name="_742792094">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792094.pdf"/>
+<attribute name="IR2" value="1000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792094 "/>
+<attribute name="RDC-MAX" value="0.5Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="2200Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="2200Ohm@100 MHz"/>
+</technology>
+<technology name="_742792095">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792095.pdf"/>
+<attribute name="IR2" value="1000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792095 "/>
+<attribute name="RDC-MAX" value="0.6Ohm"/>
+<attribute name="TYPE" value="Wide Band"/>
+<attribute name="VALUE" value="2700Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="2700Ohm@100 MHz"/>
+</technology>
+</technologies>
+</device>
+<device name="_HC" package="WE-CBF_0805(W=4.0)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7784396/6"/>
+</package3dinstances>
+<technologies>
+<technology name="_742792010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792010.pdf"/>
+<attribute name="IR2" value="3000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792010 "/>
+<attribute name="RDC-MAX" value="0.03Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="7Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="11Ohm@1000 MHz"/>
+</technology>
+<technology name="_742792011">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792011.pdf"/>
+<attribute name="IR2" value="3000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792011 "/>
+<attribute name="RDC-MAX" value="0.025Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="10Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="20Ohm@1000 MHz"/>
+</technology>
+<technology name="_742792012">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792012.pdf"/>
+<attribute name="IR2" value="4000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792012 "/>
+<attribute name="RDC-MAX" value="0.008Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="33Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="58Ohm@800 MHz"/>
+</technology>
+<technology name="_742792017">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792017.pdf"/>
+<attribute name="IR2" value="3500mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792017 "/>
+<attribute name="RDC-MAX" value="0.02Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="90Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="120Ohm@400 MHz"/>
+</technology>
+<technology name="_742792021">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792021.pdf"/>
+<attribute name="IR2" value="6000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792021 "/>
+<attribute name="RDC-MAX" value="0.008Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="22Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="40Ohm@1000 MHz"/>
+</technology>
+<technology name="_742792022">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792022.pdf"/>
+<attribute name="IR2" value="2000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792022 "/>
+<attribute name="RDC-MAX" value="0.05Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="220Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="330Ohm@300 MHz"/>
+</technology>
+<technology name="_742792023">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792023.pdf"/>
+<attribute name="IR2" value="3000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792023 "/>
+<attribute name="RDC-MAX" value="0.03Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="120Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="180Ohm@250 MHz"/>
+</technology>
+<technology name="_742792025">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792025.pdf"/>
+<attribute name="IR2" value="5000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792025 "/>
+<attribute name="RDC-MAX" value="0.02Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="120Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="160Ohm@400 MHz"/>
+</technology>
+<technology name="_742792030">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792030.pdf"/>
+<attribute name="IR2" value="10000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792030 "/>
+<attribute name="RDC-MAX" value="0.003Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="30Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="39Ohm@920 MHz"/>
+</technology>
+<technology name="_742792031">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792031.pdf"/>
+<attribute name="IR2" value="3000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792031 "/>
+<attribute name="RDC-MAX" value="0.05Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="300Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="350Ohm@200 MHz"/>
+</technology>
+<technology name="_742792037">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792037.pdf"/>
+<attribute name="IR2" value="2000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792037 "/>
+<attribute name="RDC-MAX" value="0.08Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="330Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="375Ohm@250 MHz"/>
+</technology>
+<technology name="_742792040">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792040.pdf"/>
+<attribute name="IR2" value="2000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792040 "/>
+<attribute name="RDC-MAX" value="0.15Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="600Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="700Ohm@150 MHz"/>
+</technology>
+<technology name="_74279206">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279206.pdf"/>
+<attribute name="IR2" value="3000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279206 "/>
+<attribute name="RDC-MAX" value="0.025Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="30Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="55Ohm@1000 MHz"/>
+</technology>
+<technology name="_742792063">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792063.pdf"/>
+<attribute name="IR2" value="3000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792063 "/>
+<attribute name="RDC-MAX" value="0.025Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="60Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="90Ohm@500 MHz"/>
+</technology>
+<technology name="_74279207">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/74279207.pdf"/>
+<attribute name="IR2" value="1000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 74279207 "/>
+<attribute name="RDC-MAX" value="0.15Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="100Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="140Ohm@400 MHz"/>
+</technology>
+<technology name="_742792096">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792096.pdf"/>
+<attribute name="IR2" value="1000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792096 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="1000Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="1000Ohm@100 MHz"/>
+</technology>
+<technology name="_742792097">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/742792097.pdf"/>
+<attribute name="IR2" value="1000mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 742792097 "/>
+<attribute name="RDC-MAX" value="0.3Ohm"/>
+<attribute name="TYPE" value="High Current"/>
+<attribute name="VALUE" value="1500Ohm@100 MHz"/>
+<attribute name="Z-MAX" value="1800Ohm@70 MHz"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

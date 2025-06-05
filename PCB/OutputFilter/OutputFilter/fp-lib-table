@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Connectors")(type "Eagle")(uri "C:/Users/studm/Desktop/week07.03.22folders/Masterarbeit/PCB_Design/Eagle-Files/Connectors/Eagle_WR-SMA(rev21a).lbr")(options "")(descr ""))
+  (lib (name "coilcraftAxxTGL")(type "KiCad")(uri "C:/Users/studm/Desktop/week07.03.22folders/Masterarbeit/MasterarbeitAustauschordner/KiCAD_Files/Endstufe_v1/coilcraftAxxTGL.pretty")(options "")(descr ""))
+)
