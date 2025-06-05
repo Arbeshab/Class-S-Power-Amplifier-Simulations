@@ -1,0 +1,11 @@
+(fp_lib_table
+  (lib (name "SamacSys_Parts")(type "KiCad")(uri "C:/Users/studm/Desktop/week07.03.22folders/Masterarbeit/KiCAD_libloader/SamacSys_Parts.pretty")(options "")(descr ""))
+  (lib (name "SMAconnector")(type "KiCad")(uri "C:/Users/studm/Desktop/week07.03.22folders/Masterarbeit/MasterarbeitAustauschordner/KiCAD_Files/Endstufe_v1/SMAconnector.pretty")(options "")(descr ""))
+  (lib (name "WE-CBF")(type "Eagle")(uri "C:/Users/studm/Desktop/week07.03.22folders/Masterarbeit/MasterarbeitAustauschordner/KiCAD_Files/Endstufe_v2/EagleFiles/Eagle_WE-CBF(rev21b).lbr")(options "")(descr ""))
+  (lib (name "WR-MPC3")(type "Eagle")(uri "C:/Users/studm/Desktop/week07.03.22folders/Masterarbeit/MasterarbeitAustauschordner/KiCAD_Files/Endstufe_v2/EagleFiles/Eagle_WR-MPC3(rev19b).lbr")(options "")(descr ""))
+  (lib (name "WCAP-ASLI")(type "Eagle")(uri "C:/Users/studm/Desktop/week07.03.22folders/Masterarbeit/MasterarbeitAustauschordner/KiCAD_Files/Endstufe_v2/EagleFiles/Eagle_WCAP-ASLI(rev20a).lbr")(options "")(descr ""))
+  (lib (name "WCAP-CSGP")(type "Eagle")(uri "C:/Users/studm/Desktop/week07.03.22folders/Masterarbeit/MasterarbeitAustauschordner/KiCAD_Files/Endstufe_v2/EagleFiles/Eagle_WCAP-CSGP(rev22c).lbr")(options "")(descr ""))
+  (lib (name "MPP4202")(type "KiCad")(uri "C:/Users/studm/Desktop/week07.03.22folders/Masterarbeit/MasterarbeitAustauschordner/KiCAD_Files/Endstufe_v1/MPP4202.pretty")(options "")(descr ""))
+  (lib (name "snapEDAfootprints")(type "KiCad")(uri "C:/Users/studm/Desktop/week07.03.22folders/Masterarbeit/MasterarbeitAustauschordner/KiCAD_Files/Endstufe_v1/snapEDAfootprints")(options "")(descr ""))
+  (lib (name "coilcraftFootprintLib")(type "KiCad")(uri "C:/Users/studm/Desktop/week07.03.22folders/Masterarbeit/MasterarbeitAustauschordner/KiCAD_Files/Endstufe_v1/coilcraftFootprintLib.pretty")(options "")(descr ""))
+)
