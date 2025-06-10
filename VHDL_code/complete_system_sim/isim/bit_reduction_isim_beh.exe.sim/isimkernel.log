@@ -1,0 +1,28 @@
+Command line:
+   bit_reduction_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56054
+
+Sun Jan 15 21:57:44 2023
+
+
+ Elaboration Time: 0.05 sec
+
+ Current Memory Usage: 203.231 Meg
+
+ Total Signals          : 15
+ Total Nets             : 150
+ Total Signal Drivers   : 13
+ Total Blocks           : 3
+ Total Primitive Blocks : 3
+ Total Processes        : 9
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 635
+
+ Total Simulation Time: 0.06 sec
+
+ Current Memory Usage: 280.83 Meg
+
+Sun Jan 15 21:57:55 2023
+
