@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/projects/complete_system_mash222_freq_synth_sim_corrected/sys_tb_isim_beh.exe" -prj "/home/ise/projects/complete_system_mash222_freq_synth_sim_corrected/sys_tb_beh.prj" "work.sys_tb" 
