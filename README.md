@@ -1,1 +1,1 @@
-Relevante Dateien zur Masterarbeit "Klasse-S-Leistungsverstärkersystem für Funkanwendungen" 
+Supplement material for the publication "Comprehensive Study of Class S Power Amplification Technology for High-Frequency Communications Systems"
